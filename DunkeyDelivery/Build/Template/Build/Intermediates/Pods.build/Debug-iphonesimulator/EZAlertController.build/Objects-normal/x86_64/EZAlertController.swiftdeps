@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EZAlertController"
+provides-nominal:
+- "C17EZAlertController17EZAlertController"
+provides-member:
+- ["C17EZAlertController17EZAlertController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "EZAlertController"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- "UIAlertAction"
+- !private "UIAlertActionStyle"
+- "UIAlertController"
+- !private "UIAlertControllerStyle"
+- !private "UIApplication"
+- "UIView"
+- !private "UIViewController"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "EZAlertController"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UIAlertControllerStyle"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "alert"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- !private ["Ps9AnyObject", "popoverPresentationController"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "presentedViewController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sourceRect"]
+- !private ["Ps9AnyObject", "sourceView"]
+- !private ["Ps9AnyObject", "topMostController"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "addAction"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyWindow"]
+- !private ["Ps7CVarArg", "popoverPresentationController"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "presentedViewController"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sourceRect"]
+- !private ["Ps7CVarArg", "sourceView"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "popoverPresentationController"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "presentedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceRect"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceView"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- !private ["Ps23CustomStringConvertible", "popoverPresentationController"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "presentedViewController"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sourceRect"]
+- !private ["Ps23CustomStringConvertible", "sourceView"]
+- ["C17EZAlertController17EZAlertController", "EZAlertController"]
+- ["C17EZAlertController17EZAlertController", "Int"]
+- ["C17EZAlertController17EZAlertController", "String"]
+- ["C17EZAlertController17EZAlertController", "UIAlertAction"]
+- ["C17EZAlertController17EZAlertController", "UIAlertController"]
+- !private ["C17EZAlertController17EZAlertController", "UIAlertControllerStyle"]
+- !private ["C17EZAlertController17EZAlertController", "UIApplication"]
+- ["C17EZAlertController17EZAlertController", "UIView"]
+- !private ["C17EZAlertController17EZAlertController", "UIViewController"]
+- ["C17EZAlertController17EZAlertController", "Void"]
+- ["C17EZAlertController17EZAlertController", "actionSheet"]
+- ["C17EZAlertController17EZAlertController", "alert"]
+- ["C17EZAlertController17EZAlertController", "deinit"]
+- ["C17EZAlertController17EZAlertController", "init"]
+- ["C17EZAlertController17EZAlertController", "instance"]
+- !private ["C17EZAlertController17EZAlertController", "print"]
+- !private ["C17EZAlertController17EZAlertController", "topMostController"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "actionSheet"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyWindow"]
+- !private ["Ps9Equatable", "popoverPresentationController"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "presentedViewController"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sourceRect"]
+- !private ["Ps9Equatable", "sourceView"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "actionSheet"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "alert"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyWindow"]
+- !private ["Ps8Hashable", "popoverPresentationController"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "presentedViewController"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sourceRect"]
+- !private ["Ps8Hashable", "sourceView"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "popoverPresentationController"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "presentedViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "popoverPresentationController"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "presentedViewController"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertActionStyle"]
+- !private ["CSo8NSObject", "UIAlertControllerStyle"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyWindow"]
+- !private ["CSo8NSObject", "popoverPresentationController"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "presentedViewController"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "sourceRect"]
+- !private ["CSo8NSObject", "sourceView"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- !private ["PSo16NSObjectProtocol", "popoverPresentationController"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "presentedViewController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sourceRect"]
+- !private ["PSo16NSObjectProtocol", "sourceView"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "actionSheet"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["CSo13UIAlertAction", "Int"]
+- !private ["CSo13UIAlertAction", "String"]
+- !private ["CSo13UIAlertAction", "UIAlertAction"]
+- !private ["CSo13UIAlertAction", "UIAlertActionStyle"]
+- !private ["CSo13UIAlertAction", "Void"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- !private ["CSo17UIAlertController", "Int"]
+- !private ["CSo17UIAlertController", "String"]
+- !private ["CSo17UIAlertController", "UIAlertAction"]
+- !private ["CSo17UIAlertController", "UIAlertControllerStyle"]
+- !private ["CSo17UIAlertController", "Void"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["CSo17UIAlertController", "popoverPresentationController"]
+- !private ["OSC22UIAlertControllerStyle", "actionSheet"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "popoverPresentationController"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "presentedViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "sourceRect"]
+- !private ["PSo21UIAppearanceContainer", "sourceView"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "popoverPresentationController"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "presentedViewController"]
+- !private ["PSo18UIContentContainer", "sourceRect"]
+- !private ["PSo18UIContentContainer", "sourceView"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "popoverPresentationController"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "presentedViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "sourceRect"]
+- !private ["PSo18UIFocusEnvironment", "sourceView"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["CSo31UIPopoverPresentationController", "sourceRect"]
+- !private ["CSo31UIPopoverPresentationController", "sourceView"]
+- !private ["CSo24UIPresentationController", "sourceRect"]
+- !private ["CSo24UIPresentationController", "sourceView"]
+- !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertControllerStyle"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- !private ["CSo11UIResponder", "popoverPresentationController"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "presentedViewController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertAction"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "keyWindow"]
+- !private ["PSo30UIResponderStandardEditActions", "popoverPresentationController"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "presentedViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "popoverPresentationController"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "presentedViewController"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "popoverPresentationController"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "presentedViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "sourceRect"]
+- !private ["PSo18UITraitEnvironment", "sourceView"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertControllerStyle"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "popoverPresentationController"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "presentedViewController"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "actionSheet"]
+- !private ["Ps9_Hashable", "addAction"]
+- !private ["Ps9_Hashable", "alert"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyWindow"]
+- !private ["Ps9_Hashable", "popoverPresentationController"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "presentedViewController"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sourceRect"]
+- !private ["Ps9_Hashable", "sourceView"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "C17EZAlertController17EZAlertController"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo31UIPopoverPresentationController"
+- !private "CSo24UIPresentationController"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/EZAlertController/EZAlertController-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZAlertController.build/unextended-module.modulemap"
+interface-hash: "7329e19d5bc19ddaf5a5f26117a6bb79"

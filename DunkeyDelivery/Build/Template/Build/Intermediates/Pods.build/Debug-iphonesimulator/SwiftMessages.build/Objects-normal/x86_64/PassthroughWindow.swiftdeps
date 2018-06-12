@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PassthroughWindow"
+provides-nominal:
+- "C13SwiftMessages17PassthroughWindow"
+provides-member:
+- ["C13SwiftMessages17PassthroughWindow", ""]
+provides-dynamic-lookup:
+- "hitTest"
+depends-top-level:
+- !private "=="
+- "CGPoint"
+- "PassthroughWindow"
+- "TernaryPrecedence"
+- "UIEvent"
+- "UIView"
+- "UIWindow"
+depends-member:
+- !private ["Ps9AnyObject", "hitTest"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "hitTest"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "hitTest"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "hitTest"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hitTest"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "hitTest"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "hitTest"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "hitTest"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "hitTest"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "hitTest"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C13SwiftMessages17PassthroughWindow", "CGPoint"]
+- ["C13SwiftMessages17PassthroughWindow", "UIEvent"]
+- ["C13SwiftMessages17PassthroughWindow", "UIView"]
+- ["C13SwiftMessages17PassthroughWindow", "deinit"]
+- ["C13SwiftMessages17PassthroughWindow", "hitTest"]
+- ["C13SwiftMessages17PassthroughWindow", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "hitTest"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "hitTest"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "hitTest"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "hitTest"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "hitTest"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "hitTest"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "hitTest"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "hitTest"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "hitTest"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "hitTest"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "hitTest"]
+- ["CSo6UIView", "init"]
+- ["CSo8UIWindow", "CGPoint"]
+- ["CSo8UIWindow", "UIEvent"]
+- ["CSo8UIWindow", "UIView"]
+- ["CSo8UIWindow", "hitTest"]
+- ["CSo8UIWindow", "init"]
+- ["CSo8UIWindow", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hitTest"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "hitTest"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C13SwiftMessages17PassthroughWindow"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo8UIWindow"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "0a9a7e4406eb7a13b4588361cc6f39ed"

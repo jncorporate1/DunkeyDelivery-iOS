@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "38a10fdc5b0506ffca2d2ee5167ec3ba"
+build_time: [552230590, 473021000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/EZAlertController/EZAlertController.swift": [550322105, 0]

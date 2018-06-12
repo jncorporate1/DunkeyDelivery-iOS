@@ -1,0 +1,302 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PassthroughView"
+provides-nominal:
+- "C13SwiftMessages15PassthroughView"
+provides-member:
+- ["C13SwiftMessages15PassthroughView", ""]
+provides-dynamic-lookup:
+- "hitTest"
+- "tapped"
+- "tappedHander"
+depends-top-level:
+- !private "&&"
+- !private "=="
+- "CGPoint"
+- "CGRect"
+- "NSCoder"
+- "PassthroughView"
+- "TernaryPrecedence"
+- "UIControl"
+- "UIEvent"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "hitTest"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initCommon"]
+- !private ["Ps9AnyObject", "tapped"]
+- !private ["Ps9AnyObject", "tappedHander"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["PSo15CALayerDelegate", "hitTest"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "initCommon"]
+- !private ["PSo15CALayerDelegate", "tapped"]
+- !private ["PSo15CALayerDelegate", "tappedHander"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "hitTest"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initCommon"]
+- !private ["Ps7CVarArg", "tapped"]
+- !private ["Ps7CVarArg", "tappedHander"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "hitTest"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initCommon"]
+- !private ["Ps28CustomDebugStringConvertible", "tapped"]
+- !private ["Ps28CustomDebugStringConvertible", "tappedHander"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "hitTest"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initCommon"]
+- !private ["Ps23CustomStringConvertible", "tapped"]
+- !private ["Ps23CustomStringConvertible", "tappedHander"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "hitTest"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initCommon"]
+- !private ["Ps9Equatable", "tapped"]
+- !private ["Ps9Equatable", "tappedHander"]
+- !private ["Ps9Equatable", "touchUpInside"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "touchUpInside"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "hitTest"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initCommon"]
+- !private ["Ps8Hashable", "tapped"]
+- !private ["Ps8Hashable", "tappedHander"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "hitTest"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "initCommon"]
+- !private ["PSo8NSCoding", "tapped"]
+- !private ["PSo8NSCoding", "tappedHander"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "hitTest"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initCommon"]
+- ["CSo8NSObject", "tapped"]
+- ["CSo8NSObject", "tappedHander"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "hitTest"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initCommon"]
+- !private ["PSo16NSObjectProtocol", "tapped"]
+- !private ["PSo16NSObjectProtocol", "tappedHander"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "touchUpInside"]
+- ["C13SwiftMessages15PassthroughView", "CGPoint"]
+- ["C13SwiftMessages15PassthroughView", "CGRect"]
+- ["C13SwiftMessages15PassthroughView", "NSCoder"]
+- ["C13SwiftMessages15PassthroughView", "UIEvent"]
+- ["C13SwiftMessages15PassthroughView", "UIView"]
+- ["C13SwiftMessages15PassthroughView", "Void"]
+- !private ["C13SwiftMessages15PassthroughView", "addTarget"]
+- ["C13SwiftMessages15PassthroughView", "deinit"]
+- ["C13SwiftMessages15PassthroughView", "hitTest"]
+- ["C13SwiftMessages15PassthroughView", "init"]
+- !private ["C13SwiftMessages15PassthroughView", "initCommon"]
+- ["C13SwiftMessages15PassthroughView", "tapped"]
+- ["C13SwiftMessages15PassthroughView", "tappedHander"]
+- !private ["Ps16RawRepresentable", "touchUpInside"]
+- !private ["Ps10SetAlgebra", "touchUpInside"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "hitTest"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "initCommon"]
+- !private ["PSo29UIAccessibilityIdentification", "tapped"]
+- !private ["PSo29UIAccessibilityIdentification", "tappedHander"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "hitTest"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "initCommon"]
+- !private ["PSo12UIAppearance", "tapped"]
+- !private ["PSo12UIAppearance", "tappedHander"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "hitTest"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "initCommon"]
+- !private ["PSo21UIAppearanceContainer", "tapped"]
+- !private ["PSo21UIAppearanceContainer", "tappedHander"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo9UIControl", "CGPoint"]
+- ["CSo9UIControl", "CGRect"]
+- ["CSo9UIControl", "NSCoder"]
+- ["CSo9UIControl", "UIEvent"]
+- ["CSo9UIControl", "UIView"]
+- ["CSo9UIControl", "Void"]
+- !private ["CSo9UIControl", "addTarget"]
+- ["CSo9UIControl", "hitTest"]
+- ["CSo9UIControl", "init"]
+- ["CSo9UIControl", "initCommon"]
+- ["CSo9UIControl", "tapped"]
+- ["CSo9UIControl", "tappedHander"]
+- ["CSo9UIControl", ""]
+- !private ["VSC15UIControlEvents", "touchUpInside"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "hitTest"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "initCommon"]
+- !private ["PSo17UICoordinateSpace", "tapped"]
+- !private ["PSo17UICoordinateSpace", "tappedHander"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "hitTest"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "initCommon"]
+- !private ["PSo13UIDynamicItem", "tapped"]
+- !private ["PSo13UIDynamicItem", "tappedHander"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "hitTest"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "initCommon"]
+- !private ["PSo18UIFocusEnvironment", "tapped"]
+- !private ["PSo18UIFocusEnvironment", "tappedHander"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- !private ["PSo11UIFocusItem", "hitTest"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "initCommon"]
+- !private ["PSo11UIFocusItem", "tapped"]
+- !private ["PSo11UIFocusItem", "tappedHander"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addTarget"]
+- ["CSo11UIResponder", "hitTest"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initCommon"]
+- ["CSo11UIResponder", "tapped"]
+- ["CSo11UIResponder", "tappedHander"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "hitTest"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initCommon"]
+- !private ["PSo30UIResponderStandardEditActions", "tapped"]
+- !private ["PSo30UIResponderStandardEditActions", "tappedHander"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "hitTest"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "initCommon"]
+- !private ["PSo18UITraitEnvironment", "tapped"]
+- !private ["PSo18UITraitEnvironment", "tappedHander"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "addTarget"]
+- ["CSo6UIView", "hitTest"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "initCommon"]
+- ["CSo6UIView", "tapped"]
+- ["CSo6UIView", "tappedHander"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hitTest"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initCommon"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tapped"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tappedHander"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "hitTest"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initCommon"]
+- !private ["Ps9_Hashable", "tapped"]
+- !private ["Ps9_Hashable", "tappedHander"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- "C13SwiftMessages15PassthroughView"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "6da8158166f7939a3cc146ad874d3956"

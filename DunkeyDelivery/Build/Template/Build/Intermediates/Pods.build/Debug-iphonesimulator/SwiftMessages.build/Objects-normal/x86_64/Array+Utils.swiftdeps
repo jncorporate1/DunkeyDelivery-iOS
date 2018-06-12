@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "sm_random"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- "Array"
+- !private "Int"
+- !private "UInt32"
+- !private "arc4random_uniform"
+depends-member:
+- !private ["Sa", "Int"]
+- ["Sa", "Iterator"]
+- !private ["Sa", "UInt32"]
+- !private ["Sa", "arc4random_uniform"]
+- !private ["Sa", "count"]
+- ["Sa", "sm_random"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "Int"]
+- !private ["Ps23BidirectionalCollection", "UInt32"]
+- !private ["Ps23BidirectionalCollection", "arc4random_uniform"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "UInt32"]
+- !private ["Ps7CVarArg", "arc4random_uniform"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Int"]
+- !private ["Ps10Collection", "UInt32"]
+- !private ["Ps10Collection", "arc4random_uniform"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt32"]
+- !private ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Int"]
+- !private ["Ps17CustomReflectable", "UInt32"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "arc4random_uniform"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "UInt32"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "arc4random_uniform"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Int"]
+- !private ["Ps25ExpressibleByArrayLiteral", "UInt32"]
+- !private ["Ps25ExpressibleByArrayLiteral", "arc4random_uniform"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Int"]
+- !private ["Ps17MutableCollection", "UInt32"]
+- !private ["Ps17MutableCollection", "arc4random_uniform"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps22RandomAccessCollection", "Int"]
+- !private ["Ps22RandomAccessCollection", "UInt32"]
+- !private ["Ps22RandomAccessCollection", "arc4random_uniform"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "Int"]
+- !private ["Ps26RangeReplaceableCollection", "UInt32"]
+- !private ["Ps26RangeReplaceableCollection", "arc4random_uniform"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Int"]
+- !private ["Ps8Sequence", "UInt32"]
+- !private ["Ps8Sequence", "arc4random_uniform"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "Int"]
+- !private ["Ps14_ArrayProtocol", "UInt32"]
+- !private ["Ps14_ArrayProtocol", "arc4random_uniform"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "Int"]
+- !private ["Ps23_BidirectionalIndexable", "UInt32"]
+- !private ["Ps23_BidirectionalIndexable", "arc4random_uniform"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "Int"]
+- !private ["Ps24_DestructorSafeContainer", "UInt32"]
+- !private ["Ps24_DestructorSafeContainer", "arc4random_uniform"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "Int"]
+- !private ["Ps10_Indexable", "UInt32"]
+- !private ["Ps10_Indexable", "arc4random_uniform"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "Int"]
+- !private ["Ps14_IndexableBase", "UInt32"]
+- !private ["Ps14_IndexableBase", "arc4random_uniform"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "Int"]
+- !private ["Ps17_MutableIndexable", "UInt32"]
+- !private ["Ps17_MutableIndexable", "arc4random_uniform"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "Int"]
+- !private ["Ps21_ObjectiveCBridgeable", "UInt32"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "arc4random_uniform"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "Int"]
+- !private ["Ps22_RandomAccessIndexable", "UInt32"]
+- !private ["Ps22_RandomAccessIndexable", "arc4random_uniform"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "Int"]
+- !private ["Ps26_RangeReplaceableIndexable", "UInt32"]
+- !private ["Ps26_RangeReplaceableIndexable", "arc4random_uniform"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Vs6UInt32"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "572929132c68fec00d42de096761a7ae"

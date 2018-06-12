@@ -1,0 +1,126 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constants"
+provides-nominal:
+- "C14DateToolsSwift9Constants"
+provides-member:
+- ["C14DateToolsSwift9Constants", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Calendar"
+- "Constants"
+- "Set"
+- "TimeInterval"
+depends-member:
+- ["Ps9AnyObject", ""]
+- ["V10Foundation8Calendar", "Component"]
+- ["OV10Foundation8Calendar9Component", "day"]
+- ["OV10Foundation8Calendar9Component", "era"]
+- ["OV10Foundation8Calendar9Component", "hour"]
+- ["OV10Foundation8Calendar9Component", "minute"]
+- ["OV10Foundation8Calendar9Component", "month"]
+- ["OV10Foundation8Calendar9Component", "quarter"]
+- ["OV10Foundation8Calendar9Component", "second"]
+- ["OV10Foundation8Calendar9Component", "weekOfMonth"]
+- ["OV10Foundation8Calendar9Component", "weekOfYear"]
+- ["OV10Foundation8Calendar9Component", "weekday"]
+- ["OV10Foundation8Calendar9Component", "weekdayOrdinal"]
+- ["OV10Foundation8Calendar9Component", "year"]
+- ["C14DateToolsSwift9Constants", "AllCalendarUnitFlags"]
+- ["C14DateToolsSwift9Constants", "Calendar"]
+- ["C14DateToolsSwift9Constants", "MillisecondsInDay"]
+- ["C14DateToolsSwift9Constants", "SecondsInDay"]
+- ["C14DateToolsSwift9Constants", "SecondsInHour"]
+- ["C14DateToolsSwift9Constants", "SecondsInLeapYear"]
+- ["C14DateToolsSwift9Constants", "SecondsInMinute"]
+- ["C14DateToolsSwift9Constants", "SecondsInMonth28"]
+- ["C14DateToolsSwift9Constants", "SecondsInMonth29"]
+- ["C14DateToolsSwift9Constants", "SecondsInMonth30"]
+- ["C14DateToolsSwift9Constants", "SecondsInMonth31"]
+- ["C14DateToolsSwift9Constants", "SecondsInWeek"]
+- ["C14DateToolsSwift9Constants", "SecondsInYear"]
+- ["C14DateToolsSwift9Constants", "Set"]
+- ["C14DateToolsSwift9Constants", "TimeInterval"]
+- ["C14DateToolsSwift9Constants", "deinit"]
+- ["C14DateToolsSwift9Constants", "init"]
+- ["Ps28CustomDebugStringConvertible", "Component"]
+- ["Ps17CustomReflectable", "Component"]
+- ["Ps23CustomStringConvertible", "Component"]
+- ["Ps9Equatable", "Component"]
+- ["Ps9Equatable", "day"]
+- ["Ps9Equatable", "era"]
+- ["Ps9Equatable", "hour"]
+- ["Ps9Equatable", "minute"]
+- ["Ps9Equatable", "month"]
+- ["Ps9Equatable", "quarter"]
+- ["Ps9Equatable", "second"]
+- ["Ps9Equatable", "weekOfMonth"]
+- ["Ps9Equatable", "weekOfYear"]
+- ["Ps9Equatable", "weekday"]
+- ["Ps9Equatable", "weekdayOrdinal"]
+- ["Ps9Equatable", "year"]
+- ["Ps8Hashable", "Component"]
+- ["Ps8Hashable", "day"]
+- ["Ps8Hashable", "era"]
+- ["Ps8Hashable", "hour"]
+- ["Ps8Hashable", "minute"]
+- ["Ps8Hashable", "month"]
+- ["Ps8Hashable", "quarter"]
+- ["Ps8Hashable", "second"]
+- ["Ps8Hashable", "weekOfMonth"]
+- ["Ps8Hashable", "weekOfYear"]
+- ["Ps8Hashable", "weekday"]
+- ["Ps8Hashable", "weekdayOrdinal"]
+- ["Ps8Hashable", "year"]
+- ["P10Foundation20ReferenceConvertible", "Component"]
+- ["Ps9_Hashable", "Component"]
+- ["Ps9_Hashable", "day"]
+- ["Ps9_Hashable", "era"]
+- ["Ps9_Hashable", "hour"]
+- ["Ps9_Hashable", "minute"]
+- ["Ps9_Hashable", "month"]
+- ["Ps9_Hashable", "quarter"]
+- ["Ps9_Hashable", "second"]
+- ["Ps9_Hashable", "weekOfMonth"]
+- ["Ps9_Hashable", "weekOfYear"]
+- ["Ps9_Hashable", "weekday"]
+- ["Ps9_Hashable", "weekdayOrdinal"]
+- ["Ps9_Hashable", "year"]
+- ["P10Foundation14_MutableBoxing", "Component"]
+- ["Ps21_ObjectiveCBridgeable", "Component"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V10Foundation8Calendar"
+- "OV10Foundation8Calendar9Component"
+- "C14DateToolsSwift9Constants"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "P10Foundation20ReferenceConvertible"
+- "Ps9_Hashable"
+- "P10Foundation14_MutableBoxing"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+interface-hash: "53b17b17b4c4b15329d87b1ac1e08414"

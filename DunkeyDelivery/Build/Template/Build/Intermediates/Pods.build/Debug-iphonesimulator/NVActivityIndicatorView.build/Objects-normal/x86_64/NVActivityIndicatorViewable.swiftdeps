@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NVActivityIndicatorViewable"
+provides-nominal:
+- "P23NVActivityIndicatorView27NVActivityIndicatorViewable"
+provides-member:
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", ""]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "startAnimating"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "stopAnimating"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "ActivityData"
+- "CGFloat"
+- "CGSize"
+- "Int"
+- !private "NVActivityIndicatorPresenter"
+- "NVActivityIndicatorType"
+- "NVActivityIndicatorViewable"
+- "String"
+- "UIColor"
+- "UIFont"
+- "UIViewController"
+depends-member:
+- !private ["C23NVActivityIndicatorView12ActivityData", "init"]
+- !private ["Ps9AnyObject", "ActivityData"]
+- !private ["Ps9AnyObject", "NVActivityIndicatorPresenter"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "startAnimating"]
+- !private ["Ps9AnyObject", "stopAnimating"]
+- !private ["Ps7CVarArg", "ActivityData"]
+- !private ["Ps7CVarArg", "NVActivityIndicatorPresenter"]
+- !private ["Ps28CustomDebugStringConvertible", "ActivityData"]
+- !private ["Ps28CustomDebugStringConvertible", "NVActivityIndicatorPresenter"]
+- !private ["Ps23CustomStringConvertible", "ActivityData"]
+- !private ["Ps23CustomStringConvertible", "NVActivityIndicatorPresenter"]
+- !private ["Ps9Equatable", "ActivityData"]
+- !private ["Ps9Equatable", "NVActivityIndicatorPresenter"]
+- !private ["Ps8Hashable", "ActivityData"]
+- !private ["Ps8Hashable", "NVActivityIndicatorPresenter"]
+- !private ["PSo8NSCoding", "ActivityData"]
+- !private ["PSo8NSCoding", "NVActivityIndicatorPresenter"]
+- !private ["PSo26NSExtensionRequestHandling", "ActivityData"]
+- !private ["PSo26NSExtensionRequestHandling", "NVActivityIndicatorPresenter"]
+- !private ["CSo8NSObject", "ActivityData"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NVActivityIndicatorPresenter"]
+- ["CSo8NSObject", "NVActivityIndicatorType"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "ActivityData"]
+- !private ["PSo16NSObjectProtocol", "NVActivityIndicatorPresenter"]
+- !private ["C23NVActivityIndicatorView28NVActivityIndicatorPresenter", "sharedInstance"]
+- !private ["C23NVActivityIndicatorView28NVActivityIndicatorPresenter", "startAnimating"]
+- !private ["C23NVActivityIndicatorView28NVActivityIndicatorPresenter", "stopAnimating"]
+- !private ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "ActivityData"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "CGFloat"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "CGSize"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "Int"]
+- !private ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "NVActivityIndicatorPresenter"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "NVActivityIndicatorType"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "String"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "UIColor"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "UIFont"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "UIViewController"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "startAnimating"]
+- ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "stopAnimating"]
+- !private ["PSo21UIAppearanceContainer", "ActivityData"]
+- !private ["PSo21UIAppearanceContainer", "NVActivityIndicatorPresenter"]
+- !private ["PSo18UIContentContainer", "ActivityData"]
+- !private ["PSo18UIContentContainer", "NVActivityIndicatorPresenter"]
+- !private ["PSo18UIFocusEnvironment", "ActivityData"]
+- !private ["PSo18UIFocusEnvironment", "NVActivityIndicatorPresenter"]
+- !private ["CSo11UIResponder", "ActivityData"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "NVActivityIndicatorPresenter"]
+- ["CSo11UIResponder", "NVActivityIndicatorType"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIFont"]
+- !private ["PSo30UIResponderStandardEditActions", "ActivityData"]
+- !private ["PSo30UIResponderStandardEditActions", "NVActivityIndicatorPresenter"]
+- !private ["PSo16UIStateRestoring", "ActivityData"]
+- !private ["PSo16UIStateRestoring", "NVActivityIndicatorPresenter"]
+- !private ["PSo18UITraitEnvironment", "ActivityData"]
+- !private ["PSo18UITraitEnvironment", "NVActivityIndicatorPresenter"]
+- !private ["CSo16UIViewController", "ActivityData"]
+- ["CSo16UIViewController", "CGFloat"]
+- ["CSo16UIViewController", "CGSize"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "NVActivityIndicatorPresenter"]
+- ["CSo16UIViewController", "NVActivityIndicatorType"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UIFont"]
+- !private ["Ps9_Hashable", "ActivityData"]
+- !private ["Ps9_Hashable", "NVActivityIndicatorPresenter"]
+depends-nominal:
+- !private "C23NVActivityIndicatorView12ActivityData"
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "C23NVActivityIndicatorView28NVActivityIndicatorPresenter"
+- "P23NVActivityIndicatorView27NVActivityIndicatorViewable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/NVActivityIndicatorView.build/unextended-module.modulemap"
+interface-hash: "800818134d73c8f5e256331bf352a6fd"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "101abd42937bea00162d0cb5e1e7525b"
+build_time: [552230600, 940522000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/KMPlaceholderTextView/KMPlaceholderTextView/KMPlaceholderTextView.swift": [550322132, 0]

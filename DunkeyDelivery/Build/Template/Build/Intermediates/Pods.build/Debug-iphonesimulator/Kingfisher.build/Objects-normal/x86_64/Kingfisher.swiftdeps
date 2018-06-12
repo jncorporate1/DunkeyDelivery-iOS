@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Image"
+- "Color"
+- "ImageView"
+- "Button"
+- "Kingfisher"
+- "KingfisherCompatible"
+provides-nominal:
+- "C10Kingfisher10Kingfisher"
+- "P10Kingfisher20KingfisherCompatible"
+- "CSo7UIImage"
+- "CSo11UIImageView"
+- "CSo8UIButton"
+provides-member:
+- ["C10Kingfisher10Kingfisher", ""]
+- ["P10Kingfisher20KingfisherCompatible", ""]
+- ["CSo7UIImage", ""]
+- ["CSo11UIImageView", ""]
+- ["CSo8UIButton", ""]
+- ["P10Kingfisher20KingfisherCompatible", "kf"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Button"
+- "Color"
+- "Image"
+- "ImageView"
+- "Kingfisher"
+- "KingfisherCompatible"
+- "UIButton"
+- "UIColor"
+- "UIImage"
+- "UIImageView"
+depends-member:
+- !private ["Ps9AnyObject", "base"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "kf"]
+- ["Ps9AnyObject", ""]
+- ["PSo15CALayerDelegate", "kf"]
+- ["Ps7CVarArg", "kf"]
+- ["Ps28CustomDebugStringConvertible", "kf"]
+- ["Ps23CustomStringConvertible", "kf"]
+- ["Ps9Equatable", "kf"]
+- ["Ps8Hashable", "kf"]
+- ["C10Kingfisher10Kingfisher", "Base"]
+- ["C10Kingfisher10Kingfisher", "base"]
+- ["C10Kingfisher10Kingfisher", "deinit"]
+- ["C10Kingfisher10Kingfisher", "init"]
+- ["P10Kingfisher20KingfisherCompatible", "CompatibleType"]
+- ["P10Kingfisher20KingfisherCompatible", "Kingfisher"]
+- ["P10Kingfisher20KingfisherCompatible", "Self"]
+- ["P10Kingfisher20KingfisherCompatible", "kf"]
+- ["P10Kingfisher20KingfisherCompatible", ""]
+- ["PSo8NSCoding", "kf"]
+- ["CSo8NSObject", "CompatibleType"]
+- ["CSo8NSObject", "kf"]
+- ["PSo16NSObjectProtocol", "kf"]
+- ["PSo14NSSecureCoding", "kf"]
+- ["PSo29UIAccessibilityIdentification", "kf"]
+- ["PSo12UIAppearance", "kf"]
+- ["PSo21UIAppearanceContainer", "kf"]
+- ["CSo8UIButton", "CompatibleType"]
+- ["CSo8UIButton", "deinit"]
+- ["CSo8UIButton", "kf"]
+- ["CSo9UIControl", "CompatibleType"]
+- ["CSo9UIControl", "kf"]
+- ["PSo17UICoordinateSpace", "kf"]
+- ["PSo13UIDynamicItem", "kf"]
+- ["PSo18UIFocusEnvironment", "kf"]
+- ["PSo11UIFocusItem", "kf"]
+- ["CSo7UIImage", "CompatibleType"]
+- ["CSo7UIImage", "deinit"]
+- ["CSo7UIImage", "kf"]
+- ["CSo11UIImageView", "CompatibleType"]
+- ["CSo11UIImageView", "deinit"]
+- ["CSo11UIImageView", "kf"]
+- ["CSo11UIResponder", "CompatibleType"]
+- ["CSo11UIResponder", "kf"]
+- ["PSo30UIResponderStandardEditActions", "kf"]
+- ["PSo18UITraitEnvironment", "kf"]
+- ["CSo6UIView", "CompatibleType"]
+- ["CSo6UIView", "kf"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "kf"]
+- ["Ps26_ExpressibleByImageLiteral", "kf"]
+- ["Ps9_Hashable", "kf"]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C10Kingfisher10Kingfisher"
+- "P10Kingfisher20KingfisherCompatible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo7UIImage"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+interface-hash: "35ea6298709098d8605f98c506221c57"

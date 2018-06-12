@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterMenuStrip" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="mCuisine" destination="L8d-58-Msh" id="z3F-Sm-bO7"/>
+                <outlet property="mFilter" destination="O6D-94-QWp" id="QFB-vz-6sU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aek-Kn-INJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6D-94-QWp">
+                            <rect key="frame" x="0.0" y="0.0" width="188.5" height="47"/>
+                            <color key="tintColor" red="0.19303996840000001" green="1" blue="0.039713158040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Filter">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="mFilterDown:" destination="-1" eventType="touchUpInside" id="jLI-yk-PVu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8d-58-Msh">
+                            <rect key="frame" x="196" y="0.0" width="188.5" height="47"/>
+                            <color key="tintColor" red="0.19303996840000001" green="1" blue="0.039713158040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Cuisines">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="mCuisineDown:" destination="-1" eventType="touchUpInside" id="FOx-Oj-W9h"/>
+                            </connections>
+                        </button>
+                        <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-kW-183">
+                            <rect key="frame" x="187" y="7" width="1" height="33"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="33" id="C9d-pi-51K"/>
+                                <constraint firstAttribute="width" constant="1" id="nfR-ju-Cro"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="3MC-kW-183" firstAttribute="centerX" secondItem="Aek-Kn-INJ" secondAttribute="centerX" id="001-22-wKn"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="top" secondItem="Aek-Kn-INJ" secondAttribute="top" id="BjC-i8-YGQ"/>
+                        <constraint firstAttribute="bottom" secondItem="O6D-94-QWp" secondAttribute="bottom" id="ETC-iK-vyh"/>
+                        <constraint firstAttribute="bottom" secondItem="3MC-kW-183" secondAttribute="bottom" constant="7" id="Fei-gq-Y1C"/>
+                        <constraint firstItem="3MC-kW-183" firstAttribute="leading" secondItem="O6D-94-QWp" secondAttribute="trailing" constant="-1.5" id="HHO-Zj-nHC"/>
+                        <constraint firstAttribute="trailing" secondItem="L8d-58-Msh" secondAttribute="trailing" id="Hcj-9x-zE2"/>
+                        <constraint firstItem="3MC-kW-183" firstAttribute="top" secondItem="Aek-Kn-INJ" secondAttribute="top" constant="7" id="HgU-ow-88t"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="leading" secondItem="Aek-Kn-INJ" secondAttribute="leading" id="JzJ-jr-Lhf"/>
+                        <constraint firstAttribute="bottom" secondItem="O6D-94-QWp" secondAttribute="bottom" id="L1C-sW-hN5"/>
+                        <constraint firstAttribute="trailing" secondItem="L8d-58-Msh" secondAttribute="trailing" id="LOw-17-CJE"/>
+                        <constraint firstItem="L8d-58-Msh" firstAttribute="baseline" secondItem="O6D-94-QWp" secondAttribute="firstBaseline" id="Lve-Nf-hV7"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="top" secondItem="Aek-Kn-INJ" secondAttribute="top" id="NVo-sz-yF0"/>
+                        <constraint firstItem="L8d-58-Msh" firstAttribute="top" secondItem="Aek-Kn-INJ" secondAttribute="top" id="OId-n1-cG8"/>
+                        <constraint firstItem="L8d-58-Msh" firstAttribute="top" secondItem="Aek-Kn-INJ" secondAttribute="top" id="QOq-Ii-8yC"/>
+                        <constraint firstItem="3MC-kW-183" firstAttribute="centerY" secondItem="O6D-94-QWp" secondAttribute="centerY" id="QVe-9F-pqH"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="baseline" secondItem="L8d-58-Msh" secondAttribute="firstBaseline" id="Qlw-sv-zJ2"/>
+                        <constraint firstAttribute="bottom" secondItem="L8d-58-Msh" secondAttribute="bottom" id="RvI-a9-FaG"/>
+                        <constraint firstItem="3MC-kW-183" firstAttribute="centerY" secondItem="Aek-Kn-INJ" secondAttribute="centerY" id="Tff-4j-0WR"/>
+                        <constraint firstAttribute="bottom" secondItem="L8d-58-Msh" secondAttribute="bottom" id="Ul6-SH-KcC"/>
+                        <constraint firstItem="L8d-58-Msh" firstAttribute="width" secondItem="O6D-94-QWp" secondAttribute="width" id="dVX-Yl-x22"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="leading" secondItem="Aek-Kn-INJ" secondAttribute="leading" id="iBH-as-lUV"/>
+                        <constraint firstItem="O6D-94-QWp" firstAttribute="width" secondItem="Aek-Kn-INJ" secondAttribute="width" multiplier="0.5" constant="1" id="j8J-gh-dyP"/>
+                        <constraint firstAttribute="trailing" secondItem="L8d-58-Msh" secondAttribute="trailing" id="r2a-WC-JJQ"/>
+                        <constraint firstItem="L8d-58-Msh" firstAttribute="leading" secondItem="3MC-kW-183" secondAttribute="trailing" constant="8" id="wes-eB-YNp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Aek-Kn-INJ" secondAttribute="bottom" id="GfW-yN-24C"/>
+                <constraint firstItem="Aek-Kn-INJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RnC-ye-SCp"/>
+                <constraint firstAttribute="trailing" secondItem="Aek-Kn-INJ" secondAttribute="trailing" id="WcN-6R-RD8"/>
+                <constraint firstItem="Aek-Kn-INJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Y4Y-db-r2a"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31.5" y="60"/>
+        </view>
+    </objects>
+</document>

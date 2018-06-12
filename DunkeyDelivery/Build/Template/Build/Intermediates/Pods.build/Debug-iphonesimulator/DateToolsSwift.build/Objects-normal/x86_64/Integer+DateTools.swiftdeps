@@ -1,0 +1,98 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Si", ""]
+- ["Si", "seconds"]
+- ["Si", "minutes"]
+- ["Si", "hours"]
+- ["Si", "days"]
+- ["Si", "weeks"]
+- ["Si", "months"]
+- ["Si", "years"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "TimeChunk"
+depends-member:
+- !private ["Ps17BitwiseOperations", "TimeChunk"]
+- !private ["Ps7CVarArg", "TimeChunk"]
+- !private ["Ps10Comparable", "TimeChunk"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "TimeChunk"]
+- !private ["Ps17CustomReflectable", "TimeChunk"]
+- !private ["Ps23CustomStringConvertible", "TimeChunk"]
+- !private ["Ps9Equatable", "TimeChunk"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "TimeChunk"]
+- !private ["Ps8Hashable", "TimeChunk"]
+- ["Si", "TimeChunk"]
+- ["Si", "days"]
+- ["Si", "hours"]
+- ["Si", "minutes"]
+- ["Si", "months"]
+- ["Si", "seconds"]
+- ["Si", "weeks"]
+- ["Si", "years"]
+- !private ["Ps7Integer", "TimeChunk"]
+- !private ["Ps17IntegerArithmetic", "TimeChunk"]
+- !private ["Ps10MirrorPath", "TimeChunk"]
+- !private ["Ps13SignedInteger", "TimeChunk"]
+- !private ["Ps12SignedNumber", "TimeChunk"]
+- !private ["Ps10Strideable", "TimeChunk"]
+- !private ["V14DateToolsSwift9TimeChunk", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "TimeChunk"]
+- !private ["Ps9_Hashable", "TimeChunk"]
+- !private ["Ps14_Incrementable", "TimeChunk"]
+- !private ["Ps8_Integer", "TimeChunk"]
+- !private ["Ps18_IntegerArithmetic", "TimeChunk"]
+- !private ["Ps21_ObjectiveCBridgeable", "TimeChunk"]
+- !private ["Ps14_SignedInteger", "TimeChunk"]
+- !private ["Ps11_Strideable", "TimeChunk"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "V14DateToolsSwift9TimeChunk"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+interface-hash: "91bd4e17eb4f6386ed64ba11d2e590ed"

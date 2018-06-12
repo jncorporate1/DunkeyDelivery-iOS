@@ -1,0 +1,205 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CharacterSetRule"
+provides-nominal:
+- "C14SwiftValidator16CharacterSetRule"
+provides-member:
+- ["C14SwiftValidator16CharacterSetRule", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CharacterSet"
+- "CharacterSetRule"
+- "Rule"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalar"
+depends-member:
+- !private ["Ps9AnyObject", "UnicodeScalar"]
+- !private ["Ps9AnyObject", "characterSet"]
+- ["Ps9AnyObject", "errorMessage"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "message"]
+- !private ["Ps9AnyObject", "unicodeScalars"]
+- ["Ps9AnyObject", "validate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "unicodeScalars"]
+- !private ["V10Foundation12CharacterSet", "contains"]
+- ["C14SwiftValidator16CharacterSetRule", "Bool"]
+- ["C14SwiftValidator16CharacterSetRule", "CharacterSet"]
+- ["C14SwiftValidator16CharacterSetRule", "String"]
+- !private ["C14SwiftValidator16CharacterSetRule", "UnicodeScalar"]
+- !private ["C14SwiftValidator16CharacterSetRule", "characterSet"]
+- ["C14SwiftValidator16CharacterSetRule", "deinit"]
+- ["C14SwiftValidator16CharacterSetRule", "errorMessage"]
+- ["C14SwiftValidator16CharacterSetRule", "init"]
+- !private ["C14SwiftValidator16CharacterSetRule", "message"]
+- ["C14SwiftValidator16CharacterSetRule", "validate"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "unicodeScalars"]
+- !private ["Ps10Comparable", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "unicodeScalars"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "unicodeScalars"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "unicodeScalars"]
+- !private ["Ps17CustomReflectable", "value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "unicodeScalars"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "unicodeScalars"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "unicodeScalars"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "unicodeScalars"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "unicodeScalars"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "value"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "unicodeScalars"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "unicodeScalars"]
+- !private ["Ps25LosslessStringConvertible", "value"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "unicodeScalars"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "unicodeScalars"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "unicodeScalars"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "unicodeScalars"]
+- !private ["CSo8NSObject", "unicodeScalars"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "unicodeScalars"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "unicodeScalars"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "unicodeScalars"]
+- !private ["P10Foundation20ReferenceConvertible", "contains"]
+- !private ["P14SwiftValidator4Rule", "UnicodeScalar"]
+- !private ["P14SwiftValidator4Rule", "characterSet"]
+- ["P14SwiftValidator4Rule", "errorMessage"]
+- !private ["P14SwiftValidator4Rule", "message"]
+- ["P14SwiftValidator4Rule", "validate"]
+- ["P14SwiftValidator4Rule", ""]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "unicodeScalars"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "unicodeScalars"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "unicodeScalars"]
+- !private ["Ps20TextOutputStreamable", "value"]
+- !private ["Sc", "init"]
+- !private ["Sc", "value"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "unicodeScalars"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "unicodeScalars"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "unicodeScalars"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "unicodeScalars"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "value"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "unicodeScalars"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "unicodeScalars"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "contains"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "unicodeScalars"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["P10Foundation18_MutablePairBoxing", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "unicodeScalars"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "V10Foundation12CharacterSet"
+- "C14SwiftValidator16CharacterSetRule"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P10Foundation20ReferenceConvertible"
+- "P14SwiftValidator4Rule"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftValidator/SwiftValidator-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftValidator.build/unextended-module.modulemap"
+interface-hash: "8b631c350225d24ec485eef5ce7e11c6"

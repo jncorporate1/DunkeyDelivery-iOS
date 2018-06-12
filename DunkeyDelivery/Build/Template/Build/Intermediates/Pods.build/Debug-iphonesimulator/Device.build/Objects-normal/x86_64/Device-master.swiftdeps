@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "505acd237d444f163ae72dbfec6875a6"
+build_time: [552230586, 530510000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/Device/Source/Device.swift": [550322082, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Device/Source/Size.swift": [550322082, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Device/Source/Type.swift": [550322082, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Device/Source/Version.swift": [550322082, 0]

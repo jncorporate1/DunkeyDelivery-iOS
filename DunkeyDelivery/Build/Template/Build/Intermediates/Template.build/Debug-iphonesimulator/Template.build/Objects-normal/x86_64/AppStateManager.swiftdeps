@@ -1,0 +1,747 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppStateManager"
+provides-nominal:
+- "C8Template15AppStateManager"
+provides-member:
+- ["C8Template15AppStateManager", ""]
+provides-dynamic-lookup:
+- "askCameraPermission"
+- "askMediaPermission"
+- "isPermissionGranted"
+- "isUserLoggedIn"
+- "loggedInUser"
+- "markUserLogout"
+- "permissionGrantedCheck"
+- "registerUser"
+- "sharedInstance"
+- "showPermissionView"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "AVAudioSession"
+- !private "AVAudioSessionRecordPermission"
+- !private "AVAuthorizationStatus"
+- !private "AVCaptureDevice"
+- !private "AVMediaTypeVideo"
+- !private "AppDelegate"
+- "AppStateManager"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "NSObject"
+- !private "PHAuthorizationStatus"
+- !private "PHPhotoLibrary"
+- "Realm"
+- "StringLiteralType"
+- !private "UIApplication"
+- !private "UIStoryboard"
+- "User"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["CSo14AVAudioSession", "recordPermission"]
+- !private ["CSo14AVAudioSession", "sharedInstance"]
+- !private ["VSC30AVAudioSessionRecordPermission", "denied"]
+- !private ["VSC30AVAudioSessionRecordPermission", "granted"]
+- !private ["VSC30AVAudioSessionRecordPermission", "undetermined"]
+- !private ["OSC21AVAuthorizationStatus", "authorized"]
+- !private ["OSC21AVAuthorizationStatus", "denied"]
+- !private ["OSC21AVAuthorizationStatus", "notDetermined"]
+- !private ["CSo15AVCaptureDevice", "authorizationStatus"]
+- !private ["CSo15AVCaptureDevice", "requestAccess"]
+- !private ["Ps9AnyObject", "AVAudioSession"]
+- !private ["Ps9AnyObject", "AVAudioSessionRecordPermission"]
+- !private ["Ps9AnyObject", "AVAuthorizationStatus"]
+- !private ["Ps9AnyObject", "AVCaptureDevice"]
+- !private ["Ps9AnyObject", "AVMediaTypeVideo"]
+- ["Ps9AnyObject", "AppStateManager"]
+- !private ["Ps9AnyObject", "PHAuthorizationStatus"]
+- !private ["Ps9AnyObject", "PHPhotoLibrary"]
+- !private ["Ps9AnyObject", "Realm"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "askCameraPermission"]
+- !private ["Ps9AnyObject", "askMediaPermission"]
+- !private ["Ps9AnyObject", "authorizationStatus"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "deleteAll"]
+- !private ["Ps9AnyObject", "first"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "isInvalidated"]
+- !private ["Ps9AnyObject", "isPermissionGranted"]
+- !private ["Ps9AnyObject", "isUserLoggedInApp"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- !private ["Ps9AnyObject", "loggedInUser"]
+- !private ["Ps9AnyObject", "objects"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "realm"]
+- !private ["Ps9AnyObject", "recordPermission"]
+- !private ["Ps9AnyObject", "requestAccess"]
+- !private ["Ps9AnyObject", "requestAuthorization"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "showPermissionView"]
+- !private ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- !private ["C8Template15AppStateManager", "AVAudioSession"]
+- !private ["C8Template15AppStateManager", "AVAudioSessionRecordPermission"]
+- !private ["C8Template15AppStateManager", "AVAuthorizationStatus"]
+- !private ["C8Template15AppStateManager", "AVCaptureDevice"]
+- !private ["C8Template15AppStateManager", "AVMediaTypeVideo"]
+- !private ["C8Template15AppStateManager", "AppDelegate"]
+- ["C8Template15AppStateManager", "AppStateManager"]
+- ["C8Template15AppStateManager", "Bool"]
+- !private ["C8Template15AppStateManager", "PHAuthorizationStatus"]
+- !private ["C8Template15AppStateManager", "PHPhotoLibrary"]
+- ["C8Template15AppStateManager", "Realm"]
+- !private ["C8Template15AppStateManager", "UIApplication"]
+- !private ["C8Template15AppStateManager", "UIStoryboard"]
+- ["C8Template15AppStateManager", "User"]
+- ["C8Template15AppStateManager", "askCameraPermission"]
+- ["C8Template15AppStateManager", "askMediaPermission"]
+- ["C8Template15AppStateManager", "deinit"]
+- ["C8Template15AppStateManager", "init"]
+- ["C8Template15AppStateManager", "isPermissionGranted"]
+- ["C8Template15AppStateManager", "isUserLoggedIn"]
+- ["C8Template15AppStateManager", "isUserLoggedInApp"]
+- ["C8Template15AppStateManager", "loggedInUser"]
+- ["C8Template15AppStateManager", "markUserLogout"]
+- ["C8Template15AppStateManager", "permissionGrantedCheck"]
+- !private ["C8Template15AppStateManager", "print"]
+- ["C8Template15AppStateManager", "realm"]
+- ["C8Template15AppStateManager", "registerUser"]
+- ["C8Template15AppStateManager", "sharedInstance"]
+- ["C8Template15AppStateManager", "showPermissionView"]
+- !private ["P10RealmSwift28AssistedObjectiveCBridgeable", "first"]
+- !private ["P10RealmSwift28AssistedObjectiveCBridgeable", "isInvalidated"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "AVAudioSession"]
+- !private ["Ps7CVarArg", "AVAudioSessionRecordPermission"]
+- !private ["Ps7CVarArg", "AVAuthorizationStatus"]
+- !private ["Ps7CVarArg", "AVCaptureDevice"]
+- !private ["Ps7CVarArg", "AVMediaTypeVideo"]
+- ["Ps7CVarArg", "AppStateManager"]
+- !private ["Ps7CVarArg", "PHAuthorizationStatus"]
+- !private ["Ps7CVarArg", "PHPhotoLibrary"]
+- !private ["Ps7CVarArg", "Realm"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- !private ["Ps7CVarArg", "User"]
+- !private ["Ps7CVarArg", "askCameraPermission"]
+- !private ["Ps7CVarArg", "askMediaPermission"]
+- !private ["Ps7CVarArg", "authorizationStatus"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "first"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- !private ["Ps7CVarArg", "isInvalidated"]
+- !private ["Ps7CVarArg", "isPermissionGranted"]
+- !private ["Ps7CVarArg", "isUserLoggedInApp"]
+- !private ["Ps7CVarArg", "keyWindow"]
+- !private ["Ps7CVarArg", "loggedInUser"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "realm"]
+- !private ["Ps7CVarArg", "recordPermission"]
+- !private ["Ps7CVarArg", "requestAccess"]
+- !private ["Ps7CVarArg", "requestAuthorization"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "showPermissionView"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionRecordPermission"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAuthorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "AVCaptureDevice"]
+- !private ["Ps28CustomDebugStringConvertible", "AVMediaTypeVideo"]
+- ["Ps28CustomDebugStringConvertible", "AppStateManager"]
+- !private ["Ps28CustomDebugStringConvertible", "PHAuthorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "PHPhotoLibrary"]
+- !private ["Ps28CustomDebugStringConvertible", "Realm"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "User"]
+- !private ["Ps28CustomDebugStringConvertible", "askCameraPermission"]
+- !private ["Ps28CustomDebugStringConvertible", "askMediaPermission"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "isInvalidated"]
+- !private ["Ps28CustomDebugStringConvertible", "isPermissionGranted"]
+- !private ["Ps28CustomDebugStringConvertible", "isUserLoggedInApp"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "loggedInUser"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "realm"]
+- !private ["Ps28CustomDebugStringConvertible", "recordPermission"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAccess"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "showPermissionView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSession"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionRecordPermission"]
+- !private ["Ps23CustomStringConvertible", "AVAuthorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "AVCaptureDevice"]
+- !private ["Ps23CustomStringConvertible", "AVMediaTypeVideo"]
+- ["Ps23CustomStringConvertible", "AppStateManager"]
+- !private ["Ps23CustomStringConvertible", "PHAuthorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "PHPhotoLibrary"]
+- !private ["Ps23CustomStringConvertible", "Realm"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- !private ["Ps23CustomStringConvertible", "User"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "askCameraPermission"]
+- !private ["Ps23CustomStringConvertible", "askMediaPermission"]
+- !private ["Ps23CustomStringConvertible", "authorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- !private ["Ps23CustomStringConvertible", "isInvalidated"]
+- !private ["Ps23CustomStringConvertible", "isPermissionGranted"]
+- !private ["Ps23CustomStringConvertible", "isUserLoggedInApp"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- !private ["Ps23CustomStringConvertible", "loggedInUser"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "realm"]
+- !private ["Ps23CustomStringConvertible", "recordPermission"]
+- !private ["Ps23CustomStringConvertible", "requestAccess"]
+- !private ["Ps23CustomStringConvertible", "requestAuthorization"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "showPermissionView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AVAudioSession"]
+- !private ["Ps9Equatable", "AVAudioSessionRecordPermission"]
+- !private ["Ps9Equatable", "AVAuthorizationStatus"]
+- !private ["Ps9Equatable", "AVCaptureDevice"]
+- !private ["Ps9Equatable", "AVMediaTypeVideo"]
+- ["Ps9Equatable", "AppStateManager"]
+- !private ["Ps9Equatable", "PHAuthorizationStatus"]
+- !private ["Ps9Equatable", "PHPhotoLibrary"]
+- !private ["Ps9Equatable", "Realm"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- !private ["Ps9Equatable", "User"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "askCameraPermission"]
+- !private ["Ps9Equatable", "askMediaPermission"]
+- !private ["Ps9Equatable", "authorizationStatus"]
+- !private ["Ps9Equatable", "authorized"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "deleteAll"]
+- !private ["Ps9Equatable", "denied"]
+- !private ["Ps9Equatable", "first"]
+- !private ["Ps9Equatable", "granted"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "isInvalidated"]
+- !private ["Ps9Equatable", "isPermissionGranted"]
+- !private ["Ps9Equatable", "isUserLoggedInApp"]
+- !private ["Ps9Equatable", "keyWindow"]
+- !private ["Ps9Equatable", "loggedInUser"]
+- !private ["Ps9Equatable", "notDetermined"]
+- !private ["Ps9Equatable", "objects"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "realm"]
+- !private ["Ps9Equatable", "recordPermission"]
+- !private ["Ps9Equatable", "requestAccess"]
+- !private ["Ps9Equatable", "requestAuthorization"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "showPermissionView"]
+- !private ["Ps9Equatable", "undetermined"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "denied"]
+- !private ["Ps25ExpressibleByArrayLiteral", "granted"]
+- !private ["Ps25ExpressibleByArrayLiteral", "undetermined"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "AVAudioSession"]
+- !private ["Ps8Hashable", "AVAudioSessionRecordPermission"]
+- !private ["Ps8Hashable", "AVAuthorizationStatus"]
+- !private ["Ps8Hashable", "AVCaptureDevice"]
+- !private ["Ps8Hashable", "AVMediaTypeVideo"]
+- ["Ps8Hashable", "AppStateManager"]
+- !private ["Ps8Hashable", "PHAuthorizationStatus"]
+- !private ["Ps8Hashable", "PHPhotoLibrary"]
+- !private ["Ps8Hashable", "Realm"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- !private ["Ps8Hashable", "User"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "askCameraPermission"]
+- !private ["Ps8Hashable", "askMediaPermission"]
+- !private ["Ps8Hashable", "authorizationStatus"]
+- !private ["Ps8Hashable", "authorized"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "denied"]
+- !private ["Ps8Hashable", "first"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "isInvalidated"]
+- !private ["Ps8Hashable", "isPermissionGranted"]
+- !private ["Ps8Hashable", "isUserLoggedInApp"]
+- !private ["Ps8Hashable", "keyWindow"]
+- !private ["Ps8Hashable", "loggedInUser"]
+- !private ["Ps8Hashable", "notDetermined"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "realm"]
+- !private ["Ps8Hashable", "recordPermission"]
+- !private ["Ps8Hashable", "requestAccess"]
+- !private ["Ps8Hashable", "requestAuthorization"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "showPermissionView"]
+- ["Ps8Hashable", ""]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps22LazyCollectionProtocol", "first"]
+- !private ["Ps20LazySequenceProtocol", "first"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo17NSFastEnumeration", "first"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AVAudioSession"]
+- !private ["CSo8NSObject", "AVAudioSessionRecordPermission"]
+- !private ["CSo8NSObject", "AVAuthorizationStatus"]
+- !private ["CSo8NSObject", "AVCaptureDevice"]
+- !private ["CSo8NSObject", "AVMediaTypeVideo"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "AppStateManager"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "PHAuthorizationStatus"]
+- !private ["CSo8NSObject", "PHPhotoLibrary"]
+- ["CSo8NSObject", "Realm"]
+- !private ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "User"]
+- ["CSo8NSObject", "askCameraPermission"]
+- ["CSo8NSObject", "askMediaPermission"]
+- !private ["CSo8NSObject", "authorizationStatus"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "first"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- !private ["CSo8NSObject", "isInvalidated"]
+- ["CSo8NSObject", "isPermissionGranted"]
+- ["CSo8NSObject", "isUserLoggedIn"]
+- ["CSo8NSObject", "isUserLoggedInApp"]
+- !private ["CSo8NSObject", "keyWindow"]
+- ["CSo8NSObject", "loggedInUser"]
+- ["CSo8NSObject", "markUserLogout"]
+- ["CSo8NSObject", "permissionGrantedCheck"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "realm"]
+- !private ["CSo8NSObject", "recordPermission"]
+- ["CSo8NSObject", "registerUser"]
+- !private ["CSo8NSObject", "requestAccess"]
+- !private ["CSo8NSObject", "requestAuthorization"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "showPermissionView"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AVAudioSession"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionRecordPermission"]
+- !private ["PSo16NSObjectProtocol", "AVAuthorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "AVCaptureDevice"]
+- !private ["PSo16NSObjectProtocol", "AVMediaTypeVideo"]
+- ["PSo16NSObjectProtocol", "AppStateManager"]
+- !private ["PSo16NSObjectProtocol", "PHAuthorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "PHPhotoLibrary"]
+- !private ["PSo16NSObjectProtocol", "Realm"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "User"]
+- !private ["PSo16NSObjectProtocol", "askCameraPermission"]
+- !private ["PSo16NSObjectProtocol", "askMediaPermission"]
+- !private ["PSo16NSObjectProtocol", "authorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "first"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- !private ["PSo16NSObjectProtocol", "isInvalidated"]
+- !private ["PSo16NSObjectProtocol", "isPermissionGranted"]
+- !private ["PSo16NSObjectProtocol", "isUserLoggedInApp"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- !private ["PSo16NSObjectProtocol", "loggedInUser"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "realm"]
+- !private ["PSo16NSObjectProtocol", "recordPermission"]
+- !private ["PSo16NSObjectProtocol", "requestAccess"]
+- !private ["PSo16NSObjectProtocol", "requestAuthorization"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "showPermissionView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C10RealmSwift6Object", "isInvalidated"]
+- !private ["Ps9OptionSet", "denied"]
+- !private ["Ps9OptionSet", "granted"]
+- !private ["Ps9OptionSet", "undetermined"]
+- !private ["OSC21PHAuthorizationStatus", "authorized"]
+- !private ["OSC21PHAuthorizationStatus", "denied"]
+- !private ["OSC21PHAuthorizationStatus", "notDetermined"]
+- !private ["CSo14PHPhotoLibrary", "authorizationStatus"]
+- !private ["CSo14PHPhotoLibrary", "requestAuthorization"]
+- !private ["CSo13RLMObjectBase", "isInvalidated"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps16RawRepresentable", "authorized"]
+- !private ["Ps16RawRepresentable", "denied"]
+- !private ["Ps16RawRepresentable", "granted"]
+- !private ["Ps16RawRepresentable", "notDetermined"]
+- !private ["Ps16RawRepresentable", "undetermined"]
+- !private ["C10RealmSwift5Realm", "delete"]
+- !private ["C10RealmSwift5Realm", "deleteAll"]
+- !private ["C10RealmSwift5Realm", "init"]
+- !private ["C10RealmSwift5Realm", "objects"]
+- !private ["C10RealmSwift5Realm", "write"]
+- !private ["P10RealmSwift15RealmCollection", "first"]
+- !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["C10RealmSwift7Results", "first"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps10SetAlgebra", "denied"]
+- !private ["Ps10SetAlgebra", "granted"]
+- !private ["Ps10SetAlgebra", "undetermined"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10RealmSwift14ThreadConfined", "first"]
+- !private ["P10RealmSwift14ThreadConfined", "isInvalidated"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "keyWindow"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["C8Template4User", "deinit"]
+- !private ["C8Template4User", "isInvalidated"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AVAudioSession"]
+- !private ["Ps9_Hashable", "AVAudioSessionRecordPermission"]
+- !private ["Ps9_Hashable", "AVAuthorizationStatus"]
+- !private ["Ps9_Hashable", "AVCaptureDevice"]
+- !private ["Ps9_Hashable", "AVMediaTypeVideo"]
+- ["Ps9_Hashable", "AppStateManager"]
+- !private ["Ps9_Hashable", "PHAuthorizationStatus"]
+- !private ["Ps9_Hashable", "PHPhotoLibrary"]
+- !private ["Ps9_Hashable", "Realm"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- !private ["Ps9_Hashable", "User"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "askCameraPermission"]
+- !private ["Ps9_Hashable", "askMediaPermission"]
+- !private ["Ps9_Hashable", "authorizationStatus"]
+- !private ["Ps9_Hashable", "authorized"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "denied"]
+- !private ["Ps9_Hashable", "first"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "isInvalidated"]
+- !private ["Ps9_Hashable", "isPermissionGranted"]
+- !private ["Ps9_Hashable", "isUserLoggedInApp"]
+- !private ["Ps9_Hashable", "keyWindow"]
+- !private ["Ps9_Hashable", "loggedInUser"]
+- !private ["Ps9_Hashable", "notDetermined"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "realm"]
+- !private ["Ps9_Hashable", "recordPermission"]
+- !private ["Ps9_Hashable", "requestAccess"]
+- !private ["Ps9_Hashable", "requestAuthorization"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "showPermissionView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+depends-nominal:
+- !private "CSo14AVAudioSession"
+- !private "VSC30AVAudioSessionRecordPermission"
+- !private "OSC21AVAuthorizationStatus"
+- !private "CSo15AVCaptureDevice"
+- "Ps9AnyObject"
+- "C8Template15AppStateManager"
+- !private "P10RealmSwift28AssistedObjectiveCBridgeable"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C10RealmSwift6Object"
+- !private "Ps9OptionSet"
+- !private "OSC21PHAuthorizationStatus"
+- !private "CSo14PHPhotoLibrary"
+- !private "CSo13RLMObjectBase"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps16RawRepresentable"
+- !private "C10RealmSwift5Realm"
+- !private "P10RealmSwift15RealmCollection"
+- !private "P10RealmSwift17RealmOptionalType"
+- !private "C10RealmSwift7Results"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10RealmSwift14ThreadConfined"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "P9Alamofire14URLConvertible"
+- !private "C8Template4User"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/Device.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/CocoaLumberjack.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog+LOGV.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogCapture.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/Template-Bridging-Header.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDOSLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDTTYLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDFileLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAbstractDatabaseLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/SWRevealViewController.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLogMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAssertMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLegacyMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "3241303c77092785fac06ee7eee9c97a"

@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WindowRootViewController"
+provides-nominal:
+- "C5PKHUD24WindowRootViewController"
+provides-member:
+- ["C5PKHUD24WindowRootViewController", ""]
+provides-dynamic-lookup:
+- "preferredStatusBarStyle"
+- "preferredStatusBarUpdateAnimation"
+- "prefersStatusBarHidden"
+- "shouldAutorotate"
+- "supportedInterfaceOrientations"
+depends-top-level:
+- !private "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "UIApplication"
+- "UIInterfaceOrientationMask"
+- "UIStatusBarAnimation"
+- "UIStatusBarStyle"
+- "UIViewController"
+- "WindowRootViewController"
+depends-member:
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIInterfaceOrientationMask"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isStatusBarHidden"]
+- !private ["Ps9AnyObject", "preferredStatusBarStyle"]
+- !private ["Ps9AnyObject", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps9AnyObject", "prefersStatusBarHidden"]
+- !private ["Ps9AnyObject", "presentingViewController"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "shouldAutorotate"]
+- !private ["Ps9AnyObject", "statusBarStyle"]
+- !private ["Ps9AnyObject", "supportedInterfaceOrientations"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIInterfaceOrientationMask"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isStatusBarHidden"]
+- !private ["Ps7CVarArg", "preferredStatusBarStyle"]
+- !private ["Ps7CVarArg", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps7CVarArg", "prefersStatusBarHidden"]
+- !private ["Ps7CVarArg", "presentingViewController"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "shouldAutorotate"]
+- !private ["Ps7CVarArg", "statusBarStyle"]
+- !private ["Ps7CVarArg", "supportedInterfaceOrientations"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientationMask"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isStatusBarHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "preferredStatusBarStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "prefersStatusBarHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "presentingViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "shouldAutorotate"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "supportedInterfaceOrientations"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIInterfaceOrientationMask"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isStatusBarHidden"]
+- !private ["Ps23CustomStringConvertible", "preferredStatusBarStyle"]
+- !private ["Ps23CustomStringConvertible", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps23CustomStringConvertible", "prefersStatusBarHidden"]
+- !private ["Ps23CustomStringConvertible", "presentingViewController"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "shouldAutorotate"]
+- !private ["Ps23CustomStringConvertible", "statusBarStyle"]
+- !private ["Ps23CustomStringConvertible", "supportedInterfaceOrientations"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIInterfaceOrientationMask"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isStatusBarHidden"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "portrait"]
+- !private ["Ps9Equatable", "preferredStatusBarStyle"]
+- !private ["Ps9Equatable", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps9Equatable", "prefersStatusBarHidden"]
+- !private ["Ps9Equatable", "presentingViewController"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "shouldAutorotate"]
+- !private ["Ps9Equatable", "statusBarStyle"]
+- !private ["Ps9Equatable", "supportedInterfaceOrientations"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "portrait"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIInterfaceOrientationMask"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isStatusBarHidden"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "preferredStatusBarStyle"]
+- !private ["Ps8Hashable", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps8Hashable", "prefersStatusBarHidden"]
+- !private ["Ps8Hashable", "presentingViewController"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "shouldAutorotate"]
+- !private ["Ps8Hashable", "statusBarStyle"]
+- !private ["Ps8Hashable", "supportedInterfaceOrientations"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "UIInterfaceOrientationMask"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "preferredStatusBarStyle"]
+- !private ["PSo8NSCoding", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo8NSCoding", "prefersStatusBarHidden"]
+- !private ["PSo8NSCoding", "presentingViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "shouldAutorotate"]
+- !private ["PSo8NSCoding", "supportedInterfaceOrientations"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "UIInterfaceOrientationMask"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "preferredStatusBarStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo26NSExtensionRequestHandling", "prefersStatusBarHidden"]
+- !private ["PSo26NSExtensionRequestHandling", "presentingViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "shouldAutorotate"]
+- !private ["PSo26NSExtensionRequestHandling", "supportedInterfaceOrientations"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIInterfaceOrientationMask"]
+- ["CSo8NSObject", "UIStatusBarAnimation"]
+- ["CSo8NSObject", "UIStatusBarStyle"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isStatusBarHidden"]
+- ["CSo8NSObject", "preferredStatusBarStyle"]
+- ["CSo8NSObject", "preferredStatusBarUpdateAnimation"]
+- ["CSo8NSObject", "prefersStatusBarHidden"]
+- !private ["CSo8NSObject", "presentingViewController"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "shouldAutorotate"]
+- !private ["CSo8NSObject", "statusBarStyle"]
+- ["CSo8NSObject", "supportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIInterfaceOrientationMask"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isStatusBarHidden"]
+- !private ["PSo16NSObjectProtocol", "preferredStatusBarStyle"]
+- !private ["PSo16NSObjectProtocol", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo16NSObjectProtocol", "prefersStatusBarHidden"]
+- !private ["PSo16NSObjectProtocol", "presentingViewController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "shouldAutorotate"]
+- !private ["PSo16NSObjectProtocol", "statusBarStyle"]
+- !private ["PSo16NSObjectProtocol", "supportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "portrait"]
+- !private ["Ps16RawRepresentable", "none"]
+- !private ["Ps16RawRepresentable", "portrait"]
+- !private ["Ps10SetAlgebra", "portrait"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "UIInterfaceOrientationMask"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "preferredStatusBarStyle"]
+- !private ["PSo21UIAppearanceContainer", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo21UIAppearanceContainer", "prefersStatusBarHidden"]
+- !private ["PSo21UIAppearanceContainer", "presentingViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "shouldAutorotate"]
+- !private ["PSo21UIAppearanceContainer", "supportedInterfaceOrientations"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "isStatusBarHidden"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["CSo13UIApplication", "statusBarStyle"]
+- !private ["PSo21UIApplicationDelegate", "window"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "UIInterfaceOrientationMask"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "preferredStatusBarStyle"]
+- !private ["PSo18UIContentContainer", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo18UIContentContainer", "prefersStatusBarHidden"]
+- !private ["PSo18UIContentContainer", "presentingViewController"]
+- !private ["PSo18UIContentContainer", "shouldAutorotate"]
+- !private ["PSo18UIContentContainer", "supportedInterfaceOrientations"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "UIInterfaceOrientationMask"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "preferredStatusBarStyle"]
+- !private ["PSo18UIFocusEnvironment", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo18UIFocusEnvironment", "prefersStatusBarHidden"]
+- !private ["PSo18UIFocusEnvironment", "presentingViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "shouldAutorotate"]
+- !private ["PSo18UIFocusEnvironment", "supportedInterfaceOrientations"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["VSC26UIInterfaceOrientationMask", "portrait"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIInterfaceOrientationMask"]
+- ["CSo11UIResponder", "UIStatusBarAnimation"]
+- ["CSo11UIResponder", "UIStatusBarStyle"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isStatusBarHidden"]
+- ["CSo11UIResponder", "preferredStatusBarStyle"]
+- ["CSo11UIResponder", "preferredStatusBarUpdateAnimation"]
+- ["CSo11UIResponder", "prefersStatusBarHidden"]
+- !private ["CSo11UIResponder", "presentingViewController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "shared"]
+- ["CSo11UIResponder", "shouldAutorotate"]
+- !private ["CSo11UIResponder", "statusBarStyle"]
+- ["CSo11UIResponder", "supportedInterfaceOrientations"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "UIInterfaceOrientationMask"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isStatusBarHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "preferredStatusBarStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo30UIResponderStandardEditActions", "prefersStatusBarHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "presentingViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "shouldAutorotate"]
+- !private ["PSo30UIResponderStandardEditActions", "statusBarStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "supportedInterfaceOrientations"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "UIInterfaceOrientationMask"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "preferredStatusBarStyle"]
+- !private ["PSo16UIStateRestoring", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo16UIStateRestoring", "prefersStatusBarHidden"]
+- !private ["PSo16UIStateRestoring", "presentingViewController"]
+- !private ["PSo16UIStateRestoring", "shouldAutorotate"]
+- !private ["PSo16UIStateRestoring", "supportedInterfaceOrientations"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["OSC20UIStatusBarAnimation", "none"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "UIInterfaceOrientationMask"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "preferredStatusBarStyle"]
+- !private ["PSo18UITraitEnvironment", "preferredStatusBarUpdateAnimation"]
+- !private ["PSo18UITraitEnvironment", "prefersStatusBarHidden"]
+- !private ["PSo18UITraitEnvironment", "presentingViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "shouldAutorotate"]
+- !private ["PSo18UITraitEnvironment", "supportedInterfaceOrientations"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "rootViewController"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UIInterfaceOrientationMask"]
+- ["CSo16UIViewController", "UIStatusBarAnimation"]
+- ["CSo16UIViewController", "UIStatusBarStyle"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "preferredStatusBarStyle"]
+- ["CSo16UIViewController", "preferredStatusBarUpdateAnimation"]
+- ["CSo16UIViewController", "prefersStatusBarHidden"]
+- !private ["CSo16UIViewController", "presentingViewController"]
+- ["CSo16UIViewController", "shouldAutorotate"]
+- ["CSo16UIViewController", "supportedInterfaceOrientations"]
+- ["CSo16UIViewController", ""]
+- !private ["CSo8UIWindow", "rootViewController"]
+- ["C5PKHUD24WindowRootViewController", "Bool"]
+- !private ["C5PKHUD24WindowRootViewController", "UIApplication"]
+- ["C5PKHUD24WindowRootViewController", "UIInterfaceOrientationMask"]
+- ["C5PKHUD24WindowRootViewController", "UIStatusBarAnimation"]
+- ["C5PKHUD24WindowRootViewController", "UIStatusBarStyle"]
+- ["C5PKHUD24WindowRootViewController", "deinit"]
+- ["C5PKHUD24WindowRootViewController", "init"]
+- ["C5PKHUD24WindowRootViewController", "preferredStatusBarStyle"]
+- ["C5PKHUD24WindowRootViewController", "preferredStatusBarUpdateAnimation"]
+- ["C5PKHUD24WindowRootViewController", "prefersStatusBarHidden"]
+- !private ["C5PKHUD24WindowRootViewController", "presentingViewController"]
+- ["C5PKHUD24WindowRootViewController", "shouldAutorotate"]
+- ["C5PKHUD24WindowRootViewController", "supportedInterfaceOrientations"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIInterfaceOrientationMask"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isStatusBarHidden"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "preferredStatusBarStyle"]
+- !private ["Ps9_Hashable", "preferredStatusBarUpdateAnimation"]
+- !private ["Ps9_Hashable", "prefersStatusBarHidden"]
+- !private ["Ps9_Hashable", "presentingViewController"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "shouldAutorotate"]
+- !private ["Ps9_Hashable", "statusBarStyle"]
+- !private ["Ps9_Hashable", "supportedInterfaceOrientations"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "VSC26UIInterfaceOrientationMask"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "OSC20UIStatusBarAnimation"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- "C5PKHUD24WindowRootViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap"
+interface-hash: "4b2ea82ae4b516b1c2ab2f61a0f5c32d"

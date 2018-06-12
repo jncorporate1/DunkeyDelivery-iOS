@@ -1,0 +1,510 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C8Template11AppDelegate"
+provides-member:
+- ["C8Template11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UIColor"
+- "UIResponder"
+- !private "UITabBar"
+- "UIWindow"
+depends-member:
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UITabBar"]
+- !private ["Ps9AnyObject", "appearance"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "statusBarStyle"]
+- !private ["Ps9AnyObject", "tintColor"]
+- !private ["Ps9AnyObject", "white"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C8Template11AppDelegate", "Bool"]
+- ["C8Template11AppDelegate", "UIApplication"]
+- ["C8Template11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- !private ["C8Template11AppDelegate", "UIColor"]
+- !private ["C8Template11AppDelegate", "UITabBar"]
+- ["C8Template11AppDelegate", "UIWindow"]
+- ["C8Template11AppDelegate", "application"]
+- ["C8Template11AppDelegate", "applicationDidBecomeActive"]
+- ["C8Template11AppDelegate", "applicationDidEnterBackground"]
+- ["C8Template11AppDelegate", "applicationDidFinishLaunching"]
+- ["C8Template11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C8Template11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C8Template11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C8Template11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C8Template11AppDelegate", "applicationSignificantTimeChange"]
+- ["C8Template11AppDelegate", "applicationWillEnterForeground"]
+- ["C8Template11AppDelegate", "applicationWillResignActive"]
+- ["C8Template11AppDelegate", "applicationWillTerminate"]
+- ["C8Template11AppDelegate", "deinit"]
+- ["C8Template11AppDelegate", "init"]
+- ["C8Template11AppDelegate", "window"]
+- !private ["PSo15CALayerDelegate", "appearance"]
+- !private ["PSo15CALayerDelegate", "tintColor"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UITabBar"]
+- !private ["Ps7CVarArg", "appearance"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "statusBarStyle"]
+- !private ["Ps7CVarArg", "tintColor"]
+- !private ["Ps7CVarArg", "white"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UITabBar"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UITabBar"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "statusBarStyle"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- !private ["Ps23CustomStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UITabBar"]
+- !private ["Ps9Equatable", "appearance"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lightContent"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "statusBarStyle"]
+- !private ["Ps9Equatable", "tintColor"]
+- !private ["Ps9Equatable", "white"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UITabBar"]
+- !private ["Ps8Hashable", "appearance"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lightContent"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "statusBarStyle"]
+- !private ["Ps8Hashable", "tintColor"]
+- !private ["Ps8Hashable", "white"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "tintColor"]
+- !private ["PSo8NSCoding", "white"]
+- !private ["PSo9NSCopying", "white"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UITabBar"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "appearance"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "statusBarStyle"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["CSo8NSObject", "white"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UITabBar"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "statusBarStyle"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "white"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "white"]
+- !private ["Ps16RawRepresentable", "lightContent"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["CSo13UIApplication", "statusBarStyle"]
+- !private ["PSo21UIApplicationDelegate", "UIApplication"]
+- !private ["PSo21UIApplicationDelegate", "UIColor"]
+- !private ["PSo21UIApplicationDelegate", "UITabBar"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["CSo7UIColor", "white"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "appearance"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- !private ["PSo11UIFocusItem", "appearance"]
+- !private ["PSo11UIFocusItem", "tintColor"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UITabBar"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "appearance"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "statusBarStyle"]
+- !private ["CSo11UIResponder", "tintColor"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UITabBar"]
+- !private ["PSo30UIResponderStandardEditActions", "appearance"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "statusBarStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "tintColor"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["OSC16UIStatusBarStyle", "lightContent"]
+- !private ["CSo8UITabBar", "appearance"]
+- !private ["CSo8UITabBar", "tintColor"]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "appearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tintColor"]
+- !private ["Ps26_ExpressibleByColorLiteral", "white"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UITabBar"]
+- !private ["Ps9_Hashable", "appearance"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lightContent"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "statusBarStyle"]
+- !private ["Ps9_Hashable", "tintColor"]
+- !private ["Ps9_Hashable", "white"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8Template11AppDelegate"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps16RawRepresentable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo21UIApplicationDelegate"
+- !private "CSo7UIColor"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "OSC16UIStatusBarStyle"
+- !private "CSo8UITabBar"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/Device.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/CocoaLumberjack.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog+LOGV.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogCapture.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/Template-Bridging-Header.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDOSLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDTTYLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDFileLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAbstractDatabaseLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/SWRevealViewController.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLogMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAssertMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLegacyMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "b306772a10463f7c5fce689aa6452f8e"

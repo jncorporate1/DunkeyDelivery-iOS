@@ -1,0 +1,239 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Swift (3.2.0):
+    - CocoaLumberjack/Default
+  - CountryPickerSwift (1.4.2)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - DACircularProgress (2.3.1)
+  - DateToolsSwift (2.0.3)
+  - Device (2.0.1)
+  - DLRadioButton (1.4.9)
+  - DZNEmptyDataSet (1.8.1)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - EZAlertController (3.2)
+  - Fabric (1.6.11)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FBSDKCoreKit (4.28.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.28.0):
+    - FBSDKCoreKit
+  - FSCalendar (2.7.8)
+  - GMStepper (2.0.0)
+  - GoogleSignIn (4.1.1):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.5):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.12):
+    - GTMSessionFetcher/Full (= 1.1.12)
+  - GTMSessionFetcher/Core (1.1.12)
+  - GTMSessionFetcher/Full (1.1.12):
+    - GTMSessionFetcher/Core (= 1.1.12)
+  - Hero (1.0.0)
+  - HTagView (2.1.1)
+  - IDMPhotoBrowser (1.10.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQKeyboardManagerSwift (5.0.0)
+  - Kingfisher (3.2.4)
+  - KMPlaceholderTextView (1.3.0)
+  - LGAlertView (2.4.0)
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
+  - NVActivityIndicatorView (3.6.1)
+  - NYAlertViewController (1.3.0)
+  - PhoneNumberKit (1.2.3):
+    - PhoneNumberKit/PhoneNumberKitCore (= 1.2.3)
+    - PhoneNumberKit/UIKit (= 1.2.3)
+  - PhoneNumberKit/PhoneNumberKitCore (1.2.3)
+  - PhoneNumberKit/UIKit (1.2.3):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PKHUD (4.2.2)
+  - pop (1.0.9)
+  - PubNub (4.6.1):
+    - PubNub/Core (= 4.6.1)
+  - PubNub/Core (4.6.1)
+  - Reachability (3.2)
+  - Realm (2.8.0):
+    - Realm/Headers (= 2.8.0)
+  - Realm/Headers (2.8.0)
+  - RealmSwift (2.8.0):
+    - Realm (= 2.8.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - Shimmer (1.0.2)
+  - Stripe (11.5.0)
+  - SVProgressHUD (2.0.4)
+  - SwiftMessages (3.3.3)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (3.1.3)
+  - Toast-Swift (2.0.0)
+  - TPKeyboardAvoiding (1.3.1)
+  - UIAlertController+Blocks (0.9.2)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.2.0)
+  - CocoaLumberjack/Swift
+  - CountryPickerSwift (~> 1.4.2)
+  - Crashlytics
+  - DateToolsSwift
+  - Device (~> 2.0.1)
+  - DLRadioButton (~> 1.4)
+  - DZNEmptyDataSet
+  - EAIntroView (~> 2.10.0)
+  - EZAlertController (= 3.2)
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - FSCalendar
+  - GMStepper
+  - GoogleSignIn
+  - Hero
+  - HTagView
+  - IDMPhotoBrowser (= 1.10.1)
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - Kingfisher (~> 3.2.4)
+  - KMPlaceholderTextView (~> 1.3.0)
+  - LGAlertView
+  - NVActivityIndicatorView
+  - NYAlertViewController
+  - PhoneNumberKit (~> 1.2)
+  - PKHUD (~> 4.0)
+  - PubNub (~> 4)
+  - Reachability
+  - RealmSwift
+  - SDWebImage (= 3.8.2)
+  - SDWebImage/WebP
+  - Shimmer
+  - Stripe
+  - SVProgressHUD (= 2.0.4)
+  - SwiftMessages
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON (= 3.1.3)
+  - Toast-Swift (= 2.0.0)
+  - TPKeyboardAvoiding
+  - UIAlertController+Blocks (~> 0.9.2)
+  - XLPagerTabStrip (~> 7.0)
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: 2a6c23ad9efd76127f6109445515cb9780e5ad92
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  CountryPickerSwift: 3a6a3904bfada4871b9c4ac034d83d45fc7ed3c4
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  Device: 7dd12a4fc8a72a90211f2c9ac8975a728322a148
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: 0af839ea858faef99550d16596b87b4a8e8906e6
+  FBSDKCoreKit: ca961e279113f691fd83dc634c0bbad9d4e3f370
+  FBSDKLoginKit: b077381c27d800f21661757e8140cf2c80a91e4a
+  FSCalendar: 09369a2bf554ba71cd8e8cfb627e2df22a2c2af4
+  GMStepper: 6aff0c881afac2f432e5c9b0df71e44e14110a06
+  GoogleSignIn: 3fdaa34a2ba04dbd7a25d7db39aecb0da98d5bdc
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: be83fd28d63ae3087e7d351b1f39c1a7e24ab6e7
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  Hero: 18e7cf8af41c04c8532d1430ac174004a9365c87
+  HTagView: 1fd0b80e7a9326fbe22e2a6a7c8b3230baaff8b8
+  IDMPhotoBrowser: 379a8bfcad613356e4b478cb53561bdac6c6f92e
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  Kingfisher: 8d80f39da403cd9c9ee11984e1655f4d6a566cdb
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+  libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  NYAlertViewController: b93f82e2c1fc6d5e9485512ddbe7b481f463a074
+  PhoneNumberKit: 1e5cca669113fc361a8c82ec1ee559c62b8cd0f7
+  PKHUD: 9a3599e04d57676ec14746c40e423a52fb6588c0
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PubNub: 408ba6402a9c712418da738adda12ccc339cbb1e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 929243ad2b618b3232e70658bedc61110e7563f1
+  RealmSwift: 5b7079b891f2833d1849294161ba3e092bbda3f6
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  Stripe: 10761682d20dc491c52287393c800db056c9748d
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  SwiftMessages: 09cea3336e3fb63c3578983c8aac65acaa6d884a
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  UIAlertController+Blocks: 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: 658978d9f37fac8f39b09b48a28d0954350a7153
+
+COCOAPODS: 1.3.1

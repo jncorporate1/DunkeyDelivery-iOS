@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeSummaryView" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="companyLogo" destination="eoz-Oe-lMc" id="Ohw-2X-wNd"/>
+                <outlet property="companyName" destination="OBd-pc-QYy" id="q50-s3-olp"/>
+                <outlet property="menuList" destination="0eh-ax-pNU" id="PhF-C4-cIB"/>
+                <outlet property="starView" destination="V1L-B9-qSg" id="sza-ap-L4y"/>
+                <outlet property="viewMenuButton" destination="DIK-xn-CnU" id="SK8-1o-Neo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIK-xn-CnU">
+                    <rect key="frame" x="0.0" y="165" width="140" height="35"/>
+                    <color key="backgroundColor" red="0.39403134579999999" green="0.7188822627" blue="0.23701566460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="RKJ-2R-cNI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="VIEW STORE">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-Oe-lMc">
+                    <rect key="frame" x="10" y="5" width="120" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="t28-Dw-ePF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hokkaido" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBd-pc-QYy">
+                    <rect key="frame" x="10" y="63" width="130" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1L-B9-qSg" customClass="DDStarView" customModule="Template" customModuleProvider="target">
+                    <rect key="frame" x="10" y="86" width="70" height="15"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="ZQa-86-dQq"/>
+                        <constraint firstAttribute="height" constant="15" id="v6r-t2-ya0"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet,  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa." textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eh-ax-pNU">
+                    <rect key="frame" x="10" y="109" width="120" height="47"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0eh-ax-pNU" secondAttribute="trailing" constant="10" id="2r0-n1-o8s"/>
+                <constraint firstItem="V1L-B9-qSg" firstAttribute="top" secondItem="OBd-pc-QYy" secondAttribute="bottom" constant="3" id="DwE-Gj-GUg"/>
+                <constraint firstItem="eoz-Oe-lMc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="K96-mU-OFb"/>
+                <constraint firstItem="0eh-ax-pNU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Of7-t6-bb6"/>
+                <constraint firstAttribute="trailing" secondItem="DIK-xn-CnU" secondAttribute="trailing" id="Q7T-UL-bNp"/>
+                <constraint firstItem="OBd-pc-QYy" firstAttribute="top" secondItem="eoz-Oe-lMc" secondAttribute="bottom" constant="8" id="WgF-zM-jem"/>
+                <constraint firstItem="OBd-pc-QYy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Yk0-Vr-3aD"/>
+                <constraint firstAttribute="trailing" secondItem="OBd-pc-QYy" secondAttribute="trailing" id="dP9-Bt-mk9"/>
+                <constraint firstItem="DIK-xn-CnU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f6G-Qm-2Mu"/>
+                <constraint firstItem="V1L-B9-qSg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="gLO-k8-DAv"/>
+                <constraint firstAttribute="bottom" secondItem="DIK-xn-CnU" secondAttribute="bottom" id="jJf-mv-WYJ"/>
+                <constraint firstAttribute="trailing" secondItem="eoz-Oe-lMc" secondAttribute="trailing" constant="10" id="kyg-oP-rF6"/>
+                <constraint firstItem="eoz-Oe-lMc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="w3H-NS-2Mh"/>
+                <constraint firstItem="0eh-ax-pNU" firstAttribute="top" secondItem="V1L-B9-qSg" secondAttribute="bottom" constant="7.5" id="yFg-AT-1Gr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="43" y="59"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_icon" width="185" height="251"/>
+    </resources>
+</document>

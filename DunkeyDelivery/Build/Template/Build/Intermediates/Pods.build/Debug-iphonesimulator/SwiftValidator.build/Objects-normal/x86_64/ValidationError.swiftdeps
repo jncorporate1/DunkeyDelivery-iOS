@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ValidationError"
+provides-nominal:
+- "C14SwiftValidator15ValidationError"
+provides-member:
+- ["C14SwiftValidator15ValidationError", ""]
+provides-dynamic-lookup:
+- "errorLabel"
+- "errorMessage"
+depends-top-level:
+- "AssignmentPrecedence"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "ValidatableField"
+- "ValidationError"
+depends-member:
+- !private ["Ps9AnyObject", "errorLabel"]
+- !private ["Ps9AnyObject", "errorMessage"]
+- !private ["Ps9AnyObject", "field"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "errorLabel"]
+- !private ["Ps7CVarArg", "errorMessage"]
+- !private ["Ps7CVarArg", "field"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "errorLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "errorMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "field"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "errorLabel"]
+- !private ["Ps23CustomStringConvertible", "errorMessage"]
+- !private ["Ps23CustomStringConvertible", "field"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "errorLabel"]
+- !private ["Ps9Equatable", "errorMessage"]
+- !private ["Ps9Equatable", "field"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "errorLabel"]
+- !private ["Ps8Hashable", "errorMessage"]
+- !private ["Ps8Hashable", "field"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "ValidatableField"]
+- ["CSo8NSObject", "errorLabel"]
+- ["CSo8NSObject", "errorMessage"]
+- ["CSo8NSObject", "field"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "errorLabel"]
+- !private ["PSo16NSObjectProtocol", "errorMessage"]
+- !private ["PSo16NSObjectProtocol", "field"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Vs12StaticString", "init"]
+- ["C14SwiftValidator15ValidationError", "String"]
+- ["C14SwiftValidator15ValidationError", "UILabel"]
+- ["C14SwiftValidator15ValidationError", "ValidatableField"]
+- ["C14SwiftValidator15ValidationError", "deinit"]
+- ["C14SwiftValidator15ValidationError", "errorLabel"]
+- ["C14SwiftValidator15ValidationError", "errorMessage"]
+- ["C14SwiftValidator15ValidationError", "field"]
+- ["C14SwiftValidator15ValidationError", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "errorLabel"]
+- !private ["Ps9_Hashable", "errorMessage"]
+- !private ["Ps9_Hashable", "field"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Vs12StaticString"
+- "C14SwiftValidator15ValidationError"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftValidator/SwiftValidator-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftValidator.build/unextended-module.modulemap"
+interface-hash: "43507cdbed31d66b1fe9846a98092fe4"

@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5d26b9a75378106725d65c0566b35736"
+build_time: [552230610, 642534000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/Constants.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/Formatter.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/MetadataManager.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/MetadataTypes.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/NSRegularExpression+Swift.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/ParseManager.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/PartialFormatter.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/PhoneNumber.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/PhoneNumberKit.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/PhoneNumberParser.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/RegexManager.swift": [550322152, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PhoneNumberKit/PhoneNumberKit/UI/TextField.swift": [550322152, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "6c98d291b2efaf95810eddc6655d393f"
+build_time: [552230589, 215431000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/CountryPickerSwift/CountryPicker/Classes/CountryPicker.swift": [550322057, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/CountryPickerSwift/CountryPicker/Classes/CountryView.swift": [550322057, 0]

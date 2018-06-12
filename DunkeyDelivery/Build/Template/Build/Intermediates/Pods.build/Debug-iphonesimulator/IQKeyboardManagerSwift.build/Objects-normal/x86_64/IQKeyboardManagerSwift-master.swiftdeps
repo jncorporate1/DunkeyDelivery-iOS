@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "4b3fedb9b13b545d075cb11f7351eca3"
+build_time: [552230594, 651024000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift": [550322129, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift": [550322129, 0]

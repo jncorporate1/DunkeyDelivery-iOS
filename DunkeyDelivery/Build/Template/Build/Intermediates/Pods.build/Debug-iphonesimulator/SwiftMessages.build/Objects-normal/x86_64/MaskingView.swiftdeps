@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MaskingView"
+provides-nominal:
+- "C13SwiftMessages11MaskingView"
+provides-member:
+- ["C13SwiftMessages11MaskingView", ""]
+provides-dynamic-lookup:
+- "accessibilityElement"
+- "accessibilityElementCount"
+- "accessibleElements"
+- "index"
+depends-top-level:
+- !private "??"
+- "CastingPrecedence"
+- "Int"
+- "MaskingView"
+- "NSObject"
+- "PassthroughView"
+depends-member:
+- !private ["Ps9AnyObject", "accessibleElements"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "index"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "index"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["PSo15CALayerDelegate", "accessibleElements"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "accessibleElements"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "index"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "index"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "accessibleElements"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "index"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "accessibleElements"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "accessibleElements"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps8Hashable", "accessibleElements"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["C13SwiftMessages11MaskingView", "Int"]
+- ["C13SwiftMessages11MaskingView", "NSObject"]
+- ["C13SwiftMessages11MaskingView", "accessibilityElement"]
+- ["C13SwiftMessages11MaskingView", "accessibilityElementCount"]
+- ["C13SwiftMessages11MaskingView", "accessibleElements"]
+- ["C13SwiftMessages11MaskingView", "deinit"]
+- ["C13SwiftMessages11MaskingView", "index"]
+- ["C13SwiftMessages11MaskingView", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "index"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "accessibleElements"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "accessibilityElement"]
+- ["CSo8NSObject", "accessibilityElementCount"]
+- ["CSo8NSObject", "accessibleElements"]
+- ["CSo8NSObject", "index"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "accessibleElements"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C13SwiftMessages15PassthroughView", "Int"]
+- ["C13SwiftMessages15PassthroughView", "NSObject"]
+- ["C13SwiftMessages15PassthroughView", "accessibilityElement"]
+- ["C13SwiftMessages15PassthroughView", "accessibilityElementCount"]
+- ["C13SwiftMessages15PassthroughView", "accessibleElements"]
+- ["C13SwiftMessages15PassthroughView", "index"]
+- ["C13SwiftMessages15PassthroughView", "init"]
+- ["C13SwiftMessages15PassthroughView", ""]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "index"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "index"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "index"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "accessibleElements"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "accessibleElements"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "accessibleElements"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo9UIControl", "Int"]
+- ["CSo9UIControl", "NSObject"]
+- ["CSo9UIControl", "accessibilityElement"]
+- ["CSo9UIControl", "accessibilityElementCount"]
+- ["CSo9UIControl", "accessibleElements"]
+- ["CSo9UIControl", "index"]
+- ["CSo9UIControl", "init"]
+- !private ["PSo17UICoordinateSpace", "accessibleElements"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "accessibleElements"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "accessibleElements"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "accessibleElements"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "accessibilityElement"]
+- ["CSo11UIResponder", "accessibilityElementCount"]
+- ["CSo11UIResponder", "accessibleElements"]
+- ["CSo11UIResponder", "index"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "accessibleElements"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "accessibleElements"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Int"]
+- ["CSo6UIView", "NSObject"]
+- ["CSo6UIView", "accessibilityElement"]
+- ["CSo6UIView", "accessibilityElementCount"]
+- ["CSo6UIView", "accessibleElements"]
+- ["CSo6UIView", "index"]
+- ["CSo6UIView", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "index"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "index"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "accessibleElements"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "index"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps9_Hashable", "accessibleElements"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "index"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "index"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "index"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "index"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "index"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "index"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "C13SwiftMessages11MaskingView"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C13SwiftMessages15PassthroughView"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "63afd21964693d2cbd4d9b7bf69907c9"

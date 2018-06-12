@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/unextended-module.modulemap',
+    }]
+  }]
+}

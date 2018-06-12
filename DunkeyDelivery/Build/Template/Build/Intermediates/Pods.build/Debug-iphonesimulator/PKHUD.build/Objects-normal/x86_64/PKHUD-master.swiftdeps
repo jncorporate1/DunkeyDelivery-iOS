@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "4b37b590a875eab4df21e942cf04c246"
+build_time: [552230608, 697425000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/FrameView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/HUD.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUD.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDAnimating.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDAnimation.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDAssets.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDErrorView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDProgressView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDRotatingImageView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDSquareBaseView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDSuccessView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDSystemActivityIndicatorView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDTextView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUDWideBaseView.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/Window.swift": [550322148, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/WindowRootViewController.swift": [550322148, 0]

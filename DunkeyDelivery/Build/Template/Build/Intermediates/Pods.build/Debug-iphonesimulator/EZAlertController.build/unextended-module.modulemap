@@ -1,0 +1,10 @@
+framework module EZAlertController {
+  umbrella header "EZAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module EZAlertController.__Swift {
+    exclude header "EZAlertController-Swift.h"
+}

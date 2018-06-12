@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomProgressBar" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="count" destination="8bd-fk-7Bo" id="13L-py-fXs"/>
+                <outlet property="progressBar" destination="SEQ-4c-Jyy" id="3iQ-MD-Reb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tco-rJ-26o">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="41" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-fk-7Bo">
+                    <rect key="frame" x="325" y="0.0" width="50" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="gWB-RA-acr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SEQ-4c-Jyy">
+                    <rect key="frame" x="0.0" y="0.0" width="317" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="aUL-BC-8BY"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.3921568627" green="0.71764705880000002" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8bd-fk-7Bo" firstAttribute="top" secondItem="tco-rJ-26o" secondAttribute="top" id="2rR-5S-G3k"/>
+                <constraint firstAttribute="bottom" secondItem="SEQ-4c-Jyy" secondAttribute="bottom" id="6AZ-nv-IJ7"/>
+                <constraint firstAttribute="bottom" secondItem="8bd-fk-7Bo" secondAttribute="bottom" id="Bym-Jj-5Ak"/>
+                <constraint firstItem="8bd-fk-7Bo" firstAttribute="leading" secondItem="SEQ-4c-Jyy" secondAttribute="trailing" constant="8" id="IS4-E6-NVJ"/>
+                <constraint firstItem="SEQ-4c-Jyy" firstAttribute="leading" secondItem="tco-rJ-26o" secondAttribute="leading" id="TXC-8h-TwD"/>
+                <constraint firstAttribute="trailing" secondItem="8bd-fk-7Bo" secondAttribute="trailing" id="mvK-yd-3FK"/>
+                <constraint firstItem="SEQ-4c-Jyy" firstAttribute="top" secondItem="tco-rJ-26o" secondAttribute="top" id="xSa-Vn-t5Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="52" y="158"/>
+        </view>
+    </objects>
+</document>

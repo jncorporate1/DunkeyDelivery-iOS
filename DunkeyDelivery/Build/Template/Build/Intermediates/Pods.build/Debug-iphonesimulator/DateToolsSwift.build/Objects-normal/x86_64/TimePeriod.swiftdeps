@@ -1,0 +1,598 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimePeriodProtocol"
+- "TimePeriod"
+- "=="
+- "+"
+- "+"
+- "-"
+- "-"
+- "=="
+provides-nominal:
+- "P14DateToolsSwift18TimePeriodProtocol"
+- "C14DateToolsSwift10TimePeriod"
+provides-member:
+- ["P14DateToolsSwift18TimePeriodProtocol", ""]
+- ["C14DateToolsSwift10TimePeriod", ""]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isMoment"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "years"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "weeks"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "days"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "hours"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "minutes"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "seconds"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "chunk"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "duration"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "relation"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "equals"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isInside"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "contains"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "contains"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "overlaps"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "intersects"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "hasGap"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "gap"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "gap"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isAfter"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isBefore"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shift"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shift"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "lengthen"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "lengthen"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shorten"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shorten"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "+"
+- "-"
+- !private "/"
+- "=="
+- "Anchor"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "DBL_MAX"
+- "Date"
+- "Int"
+- "Interval"
+- "Relation"
+- !private "StringLiteralType"
+- "TimeChunk"
+- "TimeInterval"
+- "TimePeriod"
+- "TimePeriodProtocol"
+- !private "abs"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["O14DateToolsSwift6Anchor", "beginning"]
+- ["O14DateToolsSwift6Anchor", "center"]
+- ["O14DateToolsSwift6Anchor", "end"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "TimePeriod"]
+- ["Ps9AnyObject", "beginning"]
+- ["Ps9AnyObject", "end"]
+- !private ["Ps9AnyObject", "equals"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lengthened"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "shortened"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps10Comparable", "add"]
+- !private ["Ps10Comparable", "addTimeInterval"]
+- !private ["Ps10Comparable", "addingTimeInterval"]
+- !private ["Ps10Comparable", "chunkBetween"]
+- !private ["Ps10Comparable", "daysEarlier"]
+- !private ["Ps10Comparable", "equals"]
+- !private ["Ps10Comparable", "hoursEarlier"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEarlier"]
+- !private ["Ps10Comparable", "isEarlierThanOrEqual"]
+- !private ["Ps10Comparable", "isLater"]
+- !private ["Ps10Comparable", "isLaterThanOrEqual"]
+- !private ["Ps10Comparable", "max"]
+- !private ["Ps10Comparable", "minutesEarlier"]
+- !private ["Ps10Comparable", "secondsEarlier"]
+- !private ["Ps10Comparable", "subtract"]
+- !private ["Ps10Comparable", "timeIntervalSince"]
+- !private ["Ps10Comparable", "weeksEarlier"]
+- !private ["Ps10Comparable", "yearsEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "addTimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "addingTimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "after"]
+- !private ["Ps28CustomDebugStringConvertible", "before"]
+- !private ["Ps28CustomDebugStringConvertible", "chunkBetween"]
+- !private ["Ps28CustomDebugStringConvertible", "closed"]
+- !private ["Ps28CustomDebugStringConvertible", "daysEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "equals"]
+- !private ["Ps28CustomDebugStringConvertible", "hoursEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "isEarlierThanOrEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "isLater"]
+- !private ["Ps28CustomDebugStringConvertible", "isLaterThanOrEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "minutesEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "open"]
+- !private ["Ps28CustomDebugStringConvertible", "secondsEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "subtract"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince"]
+- !private ["Ps28CustomDebugStringConvertible", "weeksEarlier"]
+- !private ["Ps28CustomDebugStringConvertible", "yearsEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "add"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "addTimeInterval"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "addingTimeInterval"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "chunkBetween"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "daysEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "equals"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hoursEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEarlierThanOrEqual"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isLater"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isLaterThanOrEqual"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "max"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "minutesEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "secondsEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subtract"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "weeksEarlier"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "yearsEarlier"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "add"]
+- !private ["Ps17CustomReflectable", "addTimeInterval"]
+- !private ["Ps17CustomReflectable", "addingTimeInterval"]
+- !private ["Ps17CustomReflectable", "after"]
+- !private ["Ps17CustomReflectable", "before"]
+- !private ["Ps17CustomReflectable", "chunkBetween"]
+- !private ["Ps17CustomReflectable", "closed"]
+- !private ["Ps17CustomReflectable", "daysEarlier"]
+- !private ["Ps17CustomReflectable", "equals"]
+- !private ["Ps17CustomReflectable", "hoursEarlier"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEarlier"]
+- !private ["Ps17CustomReflectable", "isEarlierThanOrEqual"]
+- !private ["Ps17CustomReflectable", "isLater"]
+- !private ["Ps17CustomReflectable", "isLaterThanOrEqual"]
+- !private ["Ps17CustomReflectable", "max"]
+- !private ["Ps17CustomReflectable", "minutesEarlier"]
+- !private ["Ps17CustomReflectable", "open"]
+- !private ["Ps17CustomReflectable", "secondsEarlier"]
+- !private ["Ps17CustomReflectable", "subtract"]
+- !private ["Ps17CustomReflectable", "timeIntervalSince"]
+- !private ["Ps17CustomReflectable", "weeksEarlier"]
+- !private ["Ps17CustomReflectable", "yearsEarlier"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "addTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "addingTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "chunkBetween"]
+- !private ["Ps23CustomStringConvertible", "daysEarlier"]
+- !private ["Ps23CustomStringConvertible", "equals"]
+- !private ["Ps23CustomStringConvertible", "hoursEarlier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEarlier"]
+- !private ["Ps23CustomStringConvertible", "isEarlierThanOrEqual"]
+- !private ["Ps23CustomStringConvertible", "isLater"]
+- !private ["Ps23CustomStringConvertible", "isLaterThanOrEqual"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "minutesEarlier"]
+- !private ["Ps23CustomStringConvertible", "secondsEarlier"]
+- !private ["Ps23CustomStringConvertible", "subtract"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince"]
+- !private ["Ps23CustomStringConvertible", "weeksEarlier"]
+- !private ["Ps23CustomStringConvertible", "yearsEarlier"]
+- !private ["V10Foundation4Date", "add"]
+- !private ["V10Foundation4Date", "addTimeInterval"]
+- !private ["V10Foundation4Date", "addingTimeInterval"]
+- !private ["V10Foundation4Date", "chunkBetween"]
+- !private ["V10Foundation4Date", "daysEarlier"]
+- !private ["V10Foundation4Date", "equals"]
+- !private ["V10Foundation4Date", "hoursEarlier"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "isEarlier"]
+- !private ["V10Foundation4Date", "isEarlierThanOrEqual"]
+- !private ["V10Foundation4Date", "isLater"]
+- !private ["V10Foundation4Date", "isLaterThanOrEqual"]
+- !private ["V10Foundation4Date", "minutesEarlier"]
+- !private ["V10Foundation4Date", "secondsEarlier"]
+- !private ["V10Foundation4Date", "subtract"]
+- !private ["V10Foundation4Date", "timeIntervalSince"]
+- !private ["V10Foundation4Date", "weeksEarlier"]
+- !private ["V10Foundation4Date", "yearsEarlier"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "addTimeInterval"]
+- !private ["Ps9Equatable", "addingTimeInterval"]
+- !private ["Ps9Equatable", "after"]
+- !private ["Ps9Equatable", "before"]
+- ["Ps9Equatable", "beginning"]
+- ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "chunkBetween"]
+- !private ["Ps9Equatable", "closed"]
+- !private ["Ps9Equatable", "daysEarlier"]
+- !private ["Ps9Equatable", "enclosing"]
+- !private ["Ps9Equatable", "enclosingEndTouching"]
+- !private ["Ps9Equatable", "enclosingStartTouching"]
+- ["Ps9Equatable", "end"]
+- !private ["Ps9Equatable", "endInside"]
+- !private ["Ps9Equatable", "endTouching"]
+- !private ["Ps9Equatable", "equals"]
+- !private ["Ps9Equatable", "exactMatch"]
+- !private ["Ps9Equatable", "hoursEarlier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inside"]
+- !private ["Ps9Equatable", "insideEndTouching"]
+- !private ["Ps9Equatable", "insideStartTouching"]
+- !private ["Ps9Equatable", "isEarlier"]
+- !private ["Ps9Equatable", "isEarlierThanOrEqual"]
+- !private ["Ps9Equatable", "isLater"]
+- !private ["Ps9Equatable", "isLaterThanOrEqual"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "minutesEarlier"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "open"]
+- !private ["Ps9Equatable", "secondsEarlier"]
+- !private ["Ps9Equatable", "startInside"]
+- !private ["Ps9Equatable", "startTouching"]
+- !private ["Ps9Equatable", "subtract"]
+- !private ["Ps9Equatable", "timeIntervalSince"]
+- !private ["Ps9Equatable", "weeksEarlier"]
+- !private ["Ps9Equatable", "yearsEarlier"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "max"]
+- !private ["Ps23ExpressibleByNilLiteral", "after"]
+- !private ["Ps23ExpressibleByNilLiteral", "before"]
+- !private ["Ps23ExpressibleByNilLiteral", "closed"]
+- !private ["Ps23ExpressibleByNilLiteral", "open"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "addTimeInterval"]
+- !private ["Ps8Hashable", "addingTimeInterval"]
+- !private ["Ps8Hashable", "after"]
+- !private ["Ps8Hashable", "before"]
+- ["Ps8Hashable", "beginning"]
+- ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "chunkBetween"]
+- !private ["Ps8Hashable", "closed"]
+- !private ["Ps8Hashable", "daysEarlier"]
+- !private ["Ps8Hashable", "enclosing"]
+- !private ["Ps8Hashable", "enclosingEndTouching"]
+- !private ["Ps8Hashable", "enclosingStartTouching"]
+- ["Ps8Hashable", "end"]
+- !private ["Ps8Hashable", "endInside"]
+- !private ["Ps8Hashable", "endTouching"]
+- !private ["Ps8Hashable", "equals"]
+- !private ["Ps8Hashable", "exactMatch"]
+- !private ["Ps8Hashable", "hoursEarlier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "inside"]
+- !private ["Ps8Hashable", "insideEndTouching"]
+- !private ["Ps8Hashable", "insideStartTouching"]
+- !private ["Ps8Hashable", "isEarlier"]
+- !private ["Ps8Hashable", "isEarlierThanOrEqual"]
+- !private ["Ps8Hashable", "isLater"]
+- !private ["Ps8Hashable", "isLaterThanOrEqual"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "minutesEarlier"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "open"]
+- !private ["Ps8Hashable", "secondsEarlier"]
+- !private ["Ps8Hashable", "startInside"]
+- !private ["Ps8Hashable", "startTouching"]
+- !private ["Ps8Hashable", "subtract"]
+- !private ["Ps8Hashable", "timeIntervalSince"]
+- !private ["Ps8Hashable", "weeksEarlier"]
+- !private ["Ps8Hashable", "yearsEarlier"]
+- !private ["Si", "max"]
+- !private ["Ps7Integer", "max"]
+- !private ["Ps17IntegerArithmetic", "max"]
+- !private ["O14DateToolsSwift8Interval", "closed"]
+- !private ["O14DateToolsSwift8Interval", "deinit"]
+- !private ["O14DateToolsSwift8Interval", "open"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "max"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "after"]
+- !private ["Sq", "before"]
+- !private ["Sq", "closed"]
+- !private ["Sq", "open"]
+- !private ["P10Foundation20ReferenceConvertible", "add"]
+- !private ["P10Foundation20ReferenceConvertible", "addTimeInterval"]
+- !private ["P10Foundation20ReferenceConvertible", "addingTimeInterval"]
+- !private ["P10Foundation20ReferenceConvertible", "chunkBetween"]
+- !private ["P10Foundation20ReferenceConvertible", "daysEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "equals"]
+- !private ["P10Foundation20ReferenceConvertible", "hoursEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "isEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "isEarlierThanOrEqual"]
+- !private ["P10Foundation20ReferenceConvertible", "isLater"]
+- !private ["P10Foundation20ReferenceConvertible", "isLaterThanOrEqual"]
+- !private ["P10Foundation20ReferenceConvertible", "minutesEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "secondsEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "subtract"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSince"]
+- !private ["P10Foundation20ReferenceConvertible", "weeksEarlier"]
+- !private ["P10Foundation20ReferenceConvertible", "yearsEarlier"]
+- !private ["O14DateToolsSwift8Relation", "after"]
+- !private ["O14DateToolsSwift8Relation", "before"]
+- !private ["O14DateToolsSwift8Relation", "deinit"]
+- !private ["O14DateToolsSwift8Relation", "enclosing"]
+- !private ["O14DateToolsSwift8Relation", "enclosingEndTouching"]
+- !private ["O14DateToolsSwift8Relation", "enclosingStartTouching"]
+- !private ["O14DateToolsSwift8Relation", "endInside"]
+- !private ["O14DateToolsSwift8Relation", "endTouching"]
+- !private ["O14DateToolsSwift8Relation", "exactMatch"]
+- !private ["O14DateToolsSwift8Relation", "inside"]
+- !private ["O14DateToolsSwift8Relation", "insideEndTouching"]
+- !private ["O14DateToolsSwift8Relation", "insideStartTouching"]
+- !private ["O14DateToolsSwift8Relation", "none"]
+- !private ["O14DateToolsSwift8Relation", "startInside"]
+- !private ["O14DateToolsSwift8Relation", "startTouching"]
+- !private ["Ps13SignedInteger", "max"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "max"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "max"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V14DateToolsSwift9TimeChunk", "init"]
+- ["C14DateToolsSwift10TimePeriod", "+"]
+- ["C14DateToolsSwift10TimePeriod", "-"]
+- ["C14DateToolsSwift10TimePeriod", "=="]
+- ["C14DateToolsSwift10TimePeriod", "Anchor"]
+- ["C14DateToolsSwift10TimePeriod", "Bool"]
+- ["C14DateToolsSwift10TimePeriod", "Date"]
+- ["C14DateToolsSwift10TimePeriod", "TimeChunk"]
+- ["C14DateToolsSwift10TimePeriod", "TimeInterval"]
+- ["C14DateToolsSwift10TimePeriod", "TimePeriod"]
+- ["C14DateToolsSwift10TimePeriod", "TimePeriodProtocol"]
+- ["C14DateToolsSwift10TimePeriod", "beginning"]
+- ["C14DateToolsSwift10TimePeriod", "deinit"]
+- ["C14DateToolsSwift10TimePeriod", "end"]
+- !private ["C14DateToolsSwift10TimePeriod", "equals"]
+- ["C14DateToolsSwift10TimePeriod", "init"]
+- ["C14DateToolsSwift10TimePeriod", "lengthened"]
+- !private ["C14DateToolsSwift10TimePeriod", "print"]
+- ["C14DateToolsSwift10TimePeriod", "shifted"]
+- ["C14DateToolsSwift10TimePeriod", "shortened"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Anchor"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Bool"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "DBL_MAX"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Date"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Int"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Interval"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "Relation"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "TimeChunk"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "TimeInterval"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "TimePeriod"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "TimePeriodProtocol"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "abs"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "beginning"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "chunk"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "contains"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "days"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "duration"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "end"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "equals"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "gap"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "hasGap"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "hours"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "init"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "intersects"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isAfter"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isBefore"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isInside"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "isMoment"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "lengthen"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "lengthened"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "minutes"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "overlaps"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "print"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "relation"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "seconds"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shift"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "shorten"]
+- !private ["P14DateToolsSwift18TimePeriodProtocol", "shortened"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "weeks"]
+- ["P14DateToolsSwift18TimePeriodProtocol", "years"]
+- ["P14DateToolsSwift18TimePeriodProtocol", ""]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "max"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "addTimeInterval"]
+- !private ["Ps9_Hashable", "addingTimeInterval"]
+- !private ["Ps9_Hashable", "after"]
+- !private ["Ps9_Hashable", "before"]
+- ["Ps9_Hashable", "beginning"]
+- ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "chunkBetween"]
+- !private ["Ps9_Hashable", "closed"]
+- !private ["Ps9_Hashable", "daysEarlier"]
+- !private ["Ps9_Hashable", "enclosing"]
+- !private ["Ps9_Hashable", "enclosingEndTouching"]
+- !private ["Ps9_Hashable", "enclosingStartTouching"]
+- ["Ps9_Hashable", "end"]
+- !private ["Ps9_Hashable", "endInside"]
+- !private ["Ps9_Hashable", "endTouching"]
+- !private ["Ps9_Hashable", "equals"]
+- !private ["Ps9_Hashable", "exactMatch"]
+- !private ["Ps9_Hashable", "hoursEarlier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "inside"]
+- !private ["Ps9_Hashable", "insideEndTouching"]
+- !private ["Ps9_Hashable", "insideStartTouching"]
+- !private ["Ps9_Hashable", "isEarlier"]
+- !private ["Ps9_Hashable", "isEarlierThanOrEqual"]
+- !private ["Ps9_Hashable", "isLater"]
+- !private ["Ps9_Hashable", "isLaterThanOrEqual"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "minutesEarlier"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "open"]
+- !private ["Ps9_Hashable", "secondsEarlier"]
+- !private ["Ps9_Hashable", "startInside"]
+- !private ["Ps9_Hashable", "startTouching"]
+- !private ["Ps9_Hashable", "subtract"]
+- !private ["Ps9_Hashable", "timeIntervalSince"]
+- !private ["Ps9_Hashable", "weeksEarlier"]
+- !private ["Ps9_Hashable", "yearsEarlier"]
+- !private ["Ps14_Incrementable", "max"]
+- !private ["Ps8_Integer", "max"]
+- !private ["Ps18_IntegerArithmetic", "max"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "add"]
+- !private ["Ps21_ObjectiveCBridgeable", "addTimeInterval"]
+- !private ["Ps21_ObjectiveCBridgeable", "addingTimeInterval"]
+- !private ["Ps21_ObjectiveCBridgeable", "after"]
+- !private ["Ps21_ObjectiveCBridgeable", "before"]
+- !private ["Ps21_ObjectiveCBridgeable", "chunkBetween"]
+- !private ["Ps21_ObjectiveCBridgeable", "closed"]
+- !private ["Ps21_ObjectiveCBridgeable", "daysEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "equals"]
+- !private ["Ps21_ObjectiveCBridgeable", "hoursEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEarlierThanOrEqual"]
+- !private ["Ps21_ObjectiveCBridgeable", "isLater"]
+- !private ["Ps21_ObjectiveCBridgeable", "isLaterThanOrEqual"]
+- !private ["Ps21_ObjectiveCBridgeable", "max"]
+- !private ["Ps21_ObjectiveCBridgeable", "minutesEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "open"]
+- !private ["Ps21_ObjectiveCBridgeable", "secondsEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "subtract"]
+- !private ["Ps21_ObjectiveCBridgeable", "timeIntervalSince"]
+- !private ["Ps21_ObjectiveCBridgeable", "weeksEarlier"]
+- !private ["Ps21_ObjectiveCBridgeable", "yearsEarlier"]
+- !private ["Vs26_OptionalNilComparisonType", "after"]
+- !private ["Vs26_OptionalNilComparisonType", "before"]
+- !private ["Vs26_OptionalNilComparisonType", "closed"]
+- !private ["Vs26_OptionalNilComparisonType", "open"]
+- !private ["Ps14_SignedInteger", "max"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "max"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "O14DateToolsSwift6Anchor"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "O14DateToolsSwift8Interval"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "O14DateToolsSwift8Relation"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V14DateToolsSwift9TimeChunk"
+- "C14DateToolsSwift10TimePeriod"
+- "P14DateToolsSwift18TimePeriodProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+interface-hash: "3f48491bacc1b2ce79eedf25257ec915"

@@ -1,0 +1,248 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimeChunk"
+- "+"
+- "-"
+- "=="
+- "-"
+provides-nominal:
+- "V14DateToolsSwift9TimeChunk"
+provides-member:
+- ["V14DateToolsSwift9TimeChunk", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- "+"
+- !private "+="
+- "-"
+- !private "-="
+- !private "/"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Date"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "StringLiteralType"
+- "TimeChunk"
+- "TimeUnits"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "add"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subtract"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "days"]
+- !private ["Ps28CustomDebugStringConvertible", "hours"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "minutes"]
+- !private ["Ps28CustomDebugStringConvertible", "seconds"]
+- !private ["Ps28CustomDebugStringConvertible", "subtract"]
+- !private ["Ps28CustomDebugStringConvertible", "weeks"]
+- !private ["Ps28CustomDebugStringConvertible", "years"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "add"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subtract"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "add"]
+- !private ["Ps17CustomReflectable", "days"]
+- !private ["Ps17CustomReflectable", "hours"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "minutes"]
+- !private ["Ps17CustomReflectable", "seconds"]
+- !private ["Ps17CustomReflectable", "subtract"]
+- !private ["Ps17CustomReflectable", "weeks"]
+- !private ["Ps17CustomReflectable", "years"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subtract"]
+- !private ["V10Foundation4Date", "add"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "subtract"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "days"]
+- !private ["Ps9Equatable", "hours"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "minutes"]
+- !private ["Ps9Equatable", "seconds"]
+- !private ["Ps9Equatable", "subtract"]
+- !private ["Ps9Equatable", "weeks"]
+- !private ["Ps9Equatable", "years"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "days"]
+- !private ["Ps23ExpressibleByNilLiteral", "hours"]
+- !private ["Ps23ExpressibleByNilLiteral", "minutes"]
+- !private ["Ps23ExpressibleByNilLiteral", "seconds"]
+- !private ["Ps23ExpressibleByNilLiteral", "weeks"]
+- !private ["Ps23ExpressibleByNilLiteral", "years"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "days"]
+- !private ["Ps8Hashable", "hours"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "minutes"]
+- !private ["Ps8Hashable", "seconds"]
+- !private ["Ps8Hashable", "subtract"]
+- !private ["Ps8Hashable", "weeks"]
+- !private ["Ps8Hashable", "years"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "days"]
+- !private ["Sq", "hours"]
+- !private ["Sq", "minutes"]
+- !private ["Sq", "seconds"]
+- !private ["Sq", "weeks"]
+- !private ["Sq", "years"]
+- !private ["P10Foundation20ReferenceConvertible", "add"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "subtract"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V14DateToolsSwift9TimeChunk", "+"]
+- ["V14DateToolsSwift9TimeChunk", "-"]
+- ["V14DateToolsSwift9TimeChunk", "=="]
+- ["V14DateToolsSwift9TimeChunk", "Bool"]
+- ["V14DateToolsSwift9TimeChunk", "Date"]
+- ["V14DateToolsSwift9TimeChunk", "Int"]
+- ["V14DateToolsSwift9TimeChunk", "TimeChunk"]
+- ["V14DateToolsSwift9TimeChunk", "TimeUnits"]
+- ["V14DateToolsSwift9TimeChunk", "days"]
+- ["V14DateToolsSwift9TimeChunk", "earlier"]
+- ["V14DateToolsSwift9TimeChunk", "equals"]
+- ["V14DateToolsSwift9TimeChunk", "hours"]
+- ["V14DateToolsSwift9TimeChunk", "init"]
+- ["V14DateToolsSwift9TimeChunk", "later"]
+- ["V14DateToolsSwift9TimeChunk", "lengthen"]
+- ["V14DateToolsSwift9TimeChunk", "lengthened"]
+- ["V14DateToolsSwift9TimeChunk", "minutes"]
+- ["V14DateToolsSwift9TimeChunk", "months"]
+- !private ["V14DateToolsSwift9TimeChunk", "print"]
+- ["V14DateToolsSwift9TimeChunk", "seconds"]
+- ["V14DateToolsSwift9TimeChunk", "shorten"]
+- ["V14DateToolsSwift9TimeChunk", "shortened"]
+- ["V14DateToolsSwift9TimeChunk", "to"]
+- ["V14DateToolsSwift9TimeChunk", "weeks"]
+- ["V14DateToolsSwift9TimeChunk", "years"]
+- !private ["O14DateToolsSwift9TimeUnits", "days"]
+- !private ["O14DateToolsSwift9TimeUnits", "deinit"]
+- !private ["O14DateToolsSwift9TimeUnits", "hours"]
+- !private ["O14DateToolsSwift9TimeUnits", "minutes"]
+- !private ["O14DateToolsSwift9TimeUnits", "seconds"]
+- !private ["O14DateToolsSwift9TimeUnits", "weeks"]
+- !private ["O14DateToolsSwift9TimeUnits", "years"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "days"]
+- !private ["Ps9_Hashable", "hours"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "minutes"]
+- !private ["Ps9_Hashable", "seconds"]
+- !private ["Ps9_Hashable", "subtract"]
+- !private ["Ps9_Hashable", "weeks"]
+- !private ["Ps9_Hashable", "years"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "add"]
+- !private ["Ps21_ObjectiveCBridgeable", "days"]
+- !private ["Ps21_ObjectiveCBridgeable", "hours"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "minutes"]
+- !private ["Ps21_ObjectiveCBridgeable", "seconds"]
+- !private ["Ps21_ObjectiveCBridgeable", "subtract"]
+- !private ["Ps21_ObjectiveCBridgeable", "weeks"]
+- !private ["Ps21_ObjectiveCBridgeable", "years"]
+- !private ["Vs26_OptionalNilComparisonType", "days"]
+- !private ["Vs26_OptionalNilComparisonType", "hours"]
+- !private ["Vs26_OptionalNilComparisonType", "minutes"]
+- !private ["Vs26_OptionalNilComparisonType", "seconds"]
+- !private ["Vs26_OptionalNilComparisonType", "weeks"]
+- !private ["Vs26_OptionalNilComparisonType", "years"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V14DateToolsSwift9TimeChunk"
+- !private "O14DateToolsSwift9TimeUnits"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+interface-hash: "f00e2c7930562bf304fd25b0642cf84f"

@@ -1,0 +1,19 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "67b967d1741aa374e9db4030b75823c5"
+build_time: [552230587, 202345000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Constants.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Bundle.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Comparators.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Components.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Format.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Inits.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Manipulations.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+TimeAgo.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Enums.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/Integer+DateTools.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimeChunk.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriod.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodChain.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodCollection.swift": [550322079, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodGroup.swift": [550322079, 0]

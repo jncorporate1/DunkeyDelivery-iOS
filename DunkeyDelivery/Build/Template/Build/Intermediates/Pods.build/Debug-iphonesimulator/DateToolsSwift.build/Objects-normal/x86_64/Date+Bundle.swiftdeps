@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6Bundle", ""]
+- ["CSo6Bundle", "dateToolsBundle"]
+provides-dynamic-lookup:
+- "dateToolsBundle"
+depends-top-level:
+- "Bundle"
+- !private "Constants"
+- !private "NSString"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "appendingPathComponent"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "resourcePath"]
+- ["CSo6Bundle", "Bundle"]
+- !private ["CSo6Bundle", "Constants"]
+- !private ["CSo6Bundle", "NSString"]
+- ["CSo6Bundle", "dateToolsBundle"]
+- !private ["CSo6Bundle", "init"]
+- !private ["CSo6Bundle", "resourcePath"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "Constants"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "appendingPathComponent"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "resourcePath"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C14DateToolsSwift9Constants", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "Constants"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "appendingPathComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "resourcePath"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appendingPathComponent"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "Constants"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "appendingPathComponent"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "resourcePath"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "Constants"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "appendingPathComponent"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "resourcePath"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "appendingPathComponent"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "appendingPathComponent"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "appendingPathComponent"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "Constants"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "appendingPathComponent"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "resourcePath"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "appendingPathComponent"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "appendingPathComponent"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "appendingPathComponent"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bundle"]
+- !private ["CSo8NSObject", "Constants"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "appendingPathComponent"]
+- ["CSo8NSObject", "dateToolsBundle"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "resourcePath"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "appendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "resourcePath"]
+- !private ["PSo14NSSecureCoding", "appendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "appendingPathComponent"]
+- !private ["CSo8NSString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "appendingPathComponent"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "Constants"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "appendingPathComponent"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "resourcePath"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "CSo6Bundle"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "C14DateToolsSwift9Constants"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+interface-hash: "f294243a66d066c2453ca947850c1610"

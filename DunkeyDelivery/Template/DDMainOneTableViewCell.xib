@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RjE-yo-d9T" customClass="DDMainOneTableViewCell" customModule="Template" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RjE-yo-d9T" id="sbY-3E-P5c">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzK-hS-DdY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Near You (18)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLk-Ch-wGL">
+                                <rect key="frame" x="8" y="8" width="114.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVy-e7-HJr">
+                                <rect key="frame" x="8" y="34" width="59" height="2"/>
+                                <color key="backgroundColor" red="0.3921568627" green="0.71764705880000002" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1.5" id="7R0-hN-LMr"/>
+                                    <constraint firstAttribute="width" constant="59" id="DzT-cP-iWk"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1a-vL-IBC">
+                                <rect key="frame" x="295.5" y="13" width="56.5" height="16"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tas-iy-DHd">
+                                <rect key="frame" x="352" y="6" width="24" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="2uQ-ue-6AF"/>
+                                    <constraint firstAttribute="height" constant="31" id="8El-Mq-h6C"/>
+                                </constraints>
+                                <state key="normal" image="down_arrow_black"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh3-FR-wi2">
+                                <rect key="frame" x="295" y="0.0" width="80" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="BS2-Ai-TPK"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r1a-vL-IBC" firstAttribute="centerY" secondItem="ZzK-hS-DdY" secondAttribute="centerY" id="3s6-C3-7U3"/>
+                            <constraint firstItem="XVy-e7-HJr" firstAttribute="top" secondItem="QLk-Ch-wGL" secondAttribute="bottom" constant="5" id="BoM-Qz-ffF"/>
+                            <constraint firstItem="r1a-vL-IBC" firstAttribute="bottom" secondItem="QLk-Ch-wGL" secondAttribute="bottom" id="Ubs-1A-tlW"/>
+                            <constraint firstItem="qh3-FR-wi2" firstAttribute="top" secondItem="ZzK-hS-DdY" secondAttribute="top" id="VCp-pp-h9d"/>
+                            <constraint firstItem="QLk-Ch-wGL" firstAttribute="leading" secondItem="XVy-e7-HJr" secondAttribute="leading" id="YAa-Jm-KCr"/>
+                            <constraint firstAttribute="trailing" secondItem="qh3-FR-wi2" secondAttribute="trailing" id="Zua-Rh-Zd2"/>
+                            <constraint firstAttribute="bottom" secondItem="qh3-FR-wi2" secondAttribute="bottom" id="btc-eI-p5q"/>
+                            <constraint firstAttribute="trailing" secondItem="r1a-vL-IBC" secondAttribute="trailing" constant="23" id="cwS-0J-AEI"/>
+                            <constraint firstItem="r1a-vL-IBC" firstAttribute="centerY" secondItem="tas-iy-DHd" secondAttribute="centerY" id="lLN-jv-Zvk"/>
+                            <constraint firstItem="QLk-Ch-wGL" firstAttribute="leading" secondItem="ZzK-hS-DdY" secondAttribute="leadingMargin" id="lhq-tg-OiJ"/>
+                            <constraint firstItem="tas-iy-DHd" firstAttribute="leading" secondItem="r1a-vL-IBC" secondAttribute="trailing" id="mDs-oW-rgn"/>
+                            <constraint firstAttribute="height" constant="42" id="nXS-zb-DK4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZzK-hS-DdY" firstAttribute="leading" secondItem="sbY-3E-P5c" secondAttribute="leading" id="Eht-2x-sqi"/>
+                    <constraint firstAttribute="trailing" secondItem="ZzK-hS-DdY" secondAttribute="trailing" id="Kv7-0P-o0Y"/>
+                    <constraint firstItem="ZzK-hS-DdY" firstAttribute="centerY" secondItem="sbY-3E-P5c" secondAttribute="centerY" id="kxT-e5-Asm"/>
+                    <constraint firstItem="ZzK-hS-DdY" firstAttribute="top" secondItem="sbY-3E-P5c" secondAttribute="top" id="syR-Sv-fuQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceButton" destination="qh3-FR-wi2" id="OOZ-fe-v4f"/>
+                <outlet property="distanceLabel" destination="r1a-vL-IBC" id="98G-4r-DXn"/>
+                <outlet property="downArrow" destination="tas-iy-DHd" id="Yrk-eo-zIe"/>
+                <outlet property="nearLabel" destination="QLk-Ch-wGL" id="0yh-BG-Fjv"/>
+            </connections>
+            <point key="canvasLocation" x="101.5" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down_arrow_black" width="6" height="3"/>
+    </resources>
+</document>

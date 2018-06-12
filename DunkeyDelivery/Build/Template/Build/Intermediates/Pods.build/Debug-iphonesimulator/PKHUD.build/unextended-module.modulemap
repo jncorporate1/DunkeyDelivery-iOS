@@ -1,0 +1,10 @@
+framework module PKHUD {
+  umbrella header "PKHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PKHUD.__Swift {
+    exclude header "PKHUD-Swift.h"
+}

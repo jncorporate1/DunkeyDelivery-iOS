@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "565a49b1cbb2ce283a80743d6f2719e6"
+build_time: [552230582, 100220000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/AFError.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Alamofire.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/MultipartFormData.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Notifications.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/ParameterEncoding.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Request.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Response.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/ResponseSerialization.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Result.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/ServerTrustPolicy.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/SessionDelegate.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/SessionManager.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/TaskDelegate.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Timeline.swift": [550322045, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/Alamofire/Source/Validation.swift": [550322045, 0]

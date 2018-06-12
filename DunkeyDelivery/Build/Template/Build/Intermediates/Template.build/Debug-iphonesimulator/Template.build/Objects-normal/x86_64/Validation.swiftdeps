@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Validation"
+provides-nominal:
+- "C8Template10Validation"
+provides-member:
+- ["C8Template10Validation", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private ">"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CharacterSet"
+- !private "NSPredicate"
+- "String"
+- !private "StringLiteralType"
+- "Validation"
+depends-member:
+- !private ["Ps9AnyObject", "CharacterSet"]
+- !private ["Ps9AnyObject", "NSPredicate"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "evaluate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "trimmingCharacters"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "evaluate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "trimmingCharacters"]
+- !private ["V10Foundation12CharacterSet", "whitespacesAndNewlines"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "trimmingCharacters"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "evaluate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "trimmingCharacters"]
+- !private ["Ps28CustomDebugStringConvertible", "whitespacesAndNewlines"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "trimmingCharacters"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "trimmingCharacters"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "evaluate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "trimmingCharacters"]
+- !private ["Ps23CustomStringConvertible", "whitespacesAndNewlines"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "evaluate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "trimmingCharacters"]
+- !private ["Ps9Equatable", "whitespacesAndNewlines"]
+- !private ["Ps25ExpressibleByArrayLiteral", "whitespacesAndNewlines"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "trimmingCharacters"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "trimmingCharacters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "trimmingCharacters"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "evaluate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "trimmingCharacters"]
+- !private ["Ps8Hashable", "whitespacesAndNewlines"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "characters"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "isEmpty"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "trimmingCharacters"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "trimmingCharacters"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "trimmingCharacters"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "evaluate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "trimmingCharacters"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "evaluate"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "trimmingCharacters"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "trimmingCharacters"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "evaluate"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "trimmingCharacters"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "evaluate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "trimmingCharacters"]
+- !private ["CSo11NSPredicate", "evaluate"]
+- !private ["CSo11NSPredicate", "init"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "evaluate"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "trimmingCharacters"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "trimmingCharacters"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["P10Foundation20ReferenceConvertible", "whitespacesAndNewlines"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps10SetAlgebra", "whitespacesAndNewlines"]
+- !private ["SS", "characters"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "trimmingCharacters"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "trimmingCharacters"]
+- !private ["P9Alamofire14URLConvertible", "characters"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["P9Alamofire14URLConvertible", "isEmpty"]
+- !private ["P9Alamofire14URLConvertible", "trimmingCharacters"]
+- ["C8Template10Validation", "Bool"]
+- !private ["C8Template10Validation", "CharacterSet"]
+- !private ["C8Template10Validation", "NSPredicate"]
+- ["C8Template10Validation", "String"]
+- ["C8Template10Validation", "checkIfStringIsValid"]
+- ["C8Template10Validation", "deinit"]
+- ["C8Template10Validation", "init"]
+- ["C8Template10Validation", "isValidEmail"]
+- ["C8Template10Validation", "validateStringLength"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "trimmingCharacters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "trimmingCharacters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "trimmingCharacters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "trimmingCharacters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "trimmingCharacters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "trimmingCharacters"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "evaluate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "trimmingCharacters"]
+- !private ["Ps9_Hashable", "whitespacesAndNewlines"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["P10Foundation18_MutablePairBoxing", "whitespacesAndNewlines"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "trimmingCharacters"]
+- !private ["Ps21_ObjectiveCBridgeable", "whitespacesAndNewlines"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "V10Foundation12CharacterSet"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10RealmSwift17RealmOptionalType"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P9Alamofire14URLConvertible"
+- "C8Template10Validation"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/Device.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/CocoaLumberjack.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog+LOGV.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogCapture.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLog.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/Template-Bridging-Header.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDASLLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDOSLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDTTYLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDFileLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAbstractDatabaseLogger.h"
+- "/Users/zaidtayyab/Desktop/Template/Template/SWRevealViewController.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLogMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDAssertMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/DDLegacyMacros.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "3ed5a5e3f05b1e055378ad2b73268d69"

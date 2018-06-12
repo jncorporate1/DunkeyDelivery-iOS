@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDStarView" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="image1" destination="Voc-9c-rkq" id="eUC-xS-R6B"/>
+                <outlet property="image2" destination="fiL-mC-8Xh" id="gYm-LU-LBk"/>
+                <outlet property="image3" destination="UNU-rX-w16" id="wQt-SM-K3u"/>
+                <outlet property="image4" destination="ubR-Nz-XbU" id="WNJ-cY-17p"/>
+                <outlet property="image5" destination="6hb-hU-iKp" id="pFm-tx-HN1"/>
+                <outlet property="smallCount" destination="iqN-5l-pgR" id="hUN-Z9-xc5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="69" height="14"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_unfilled_small" translatesAutoresizingMaskIntoConstraints="NO" id="Voc-9c-rkq">
+                    <rect key="frame" x="0.0" y="0.0" width="9" height="14"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_unfilled_small" translatesAutoresizingMaskIntoConstraints="NO" id="fiL-mC-8Xh">
+                    <rect key="frame" x="10" y="0.0" width="9" height="14"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_unfilled_small" translatesAutoresizingMaskIntoConstraints="NO" id="UNU-rX-w16">
+                    <rect key="frame" x="20" y="0.0" width="9" height="14"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_unfilled_small" translatesAutoresizingMaskIntoConstraints="NO" id="ubR-Nz-XbU">
+                    <rect key="frame" x="30" y="0.0" width="9" height="14"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_unfilled_small" translatesAutoresizingMaskIntoConstraints="NO" id="6hb-hU-iKp">
+                    <rect key="frame" x="40" y="0.0" width="9" height="14"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqN-5l-pgR">
+                    <rect key="frame" x="53.5" y="0.0" width="6" height="14"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                    <color key="textColor" red="0.71347999572753906" green="0.72170644998550415" blue="0.72936344146728516" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ubR-Nz-XbU" secondAttribute="bottom" id="3xp-9Y-ghS"/>
+                <constraint firstAttribute="bottom" secondItem="UNU-rX-w16" secondAttribute="bottom" id="7yF-Wd-M4K"/>
+                <constraint firstAttribute="bottom" secondItem="Voc-9c-rkq" secondAttribute="bottom" id="9Oz-iP-IoH"/>
+                <constraint firstItem="UNU-rX-w16" firstAttribute="leading" secondItem="fiL-mC-8Xh" secondAttribute="trailing" constant="1" id="Dth-Op-Ccv"/>
+                <constraint firstItem="fiL-mC-8Xh" firstAttribute="leading" secondItem="Voc-9c-rkq" secondAttribute="trailing" constant="1" id="FVS-94-nDb"/>
+                <constraint firstItem="UNU-rX-w16" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KDX-01-EUo"/>
+                <constraint firstItem="iqN-5l-pgR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ov1-BI-rrM"/>
+                <constraint firstItem="ubR-Nz-XbU" firstAttribute="leading" secondItem="UNU-rX-w16" secondAttribute="trailing" constant="1" id="abm-ne-Vb6"/>
+                <constraint firstItem="Voc-9c-rkq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ecy-RM-dUZ"/>
+                <constraint firstAttribute="bottom" secondItem="iqN-5l-pgR" secondAttribute="bottom" id="fb9-Ed-CXr"/>
+                <constraint firstAttribute="bottom" secondItem="6hb-hU-iKp" secondAttribute="bottom" id="gJB-3f-cSa"/>
+                <constraint firstItem="ubR-Nz-XbU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kbD-HZ-FxV"/>
+                <constraint firstItem="fiL-mC-8Xh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mAk-5s-6yb"/>
+                <constraint firstItem="iqN-5l-pgR" firstAttribute="leading" secondItem="6hb-hU-iKp" secondAttribute="trailing" constant="4.5" id="mr4-tu-uXH"/>
+                <constraint firstItem="6hb-hU-iKp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pBm-0D-rb7"/>
+                <constraint firstItem="Voc-9c-rkq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ubO-xM-vbT"/>
+                <constraint firstItem="6hb-hU-iKp" firstAttribute="leading" secondItem="ubR-Nz-XbU" secondAttribute="trailing" constant="1" id="vCX-nv-MSY"/>
+                <constraint firstAttribute="bottom" secondItem="fiL-mC-8Xh" secondAttribute="bottom" id="zei-A3-LF2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-88.5" y="-104"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star_unfilled_small" width="9" height="9"/>
+    </resources>
+</document>

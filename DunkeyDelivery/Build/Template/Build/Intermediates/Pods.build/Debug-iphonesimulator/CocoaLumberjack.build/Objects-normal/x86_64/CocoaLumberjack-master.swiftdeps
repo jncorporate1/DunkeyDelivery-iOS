@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "3c876ffa6093f5dba5ff400cc13433d3"
+build_time: [552230585, 782641000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/CocoaLumberjack/Classes/CocoaLumberjack.swift": [550322051, 0]

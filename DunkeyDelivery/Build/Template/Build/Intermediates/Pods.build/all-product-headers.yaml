@@ -1,0 +1,1796 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogCapture.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDASLLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAbstractDatabaseLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAssertMacros.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDAssertMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDFileLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDFileLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLegacyMacros.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog+LOGV.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLogMacros.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDLogMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDOSLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDOSLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDTTYLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/CocoaLumberjack/Classes/DDTTYLogger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CocoaLumberjack/CocoaLumberjack.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/CocoaLumberjack.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CountryPickerSwift/CountryPicker.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CountryPicker-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CountryPickerSwift/CountryPicker.framework/Headers/CountryPicker-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CountryPickerSwift-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/CountryPickerSwift/CountryPickerSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/CountryPickerSwift/CountryPicker.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/CountryPickerSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DACircularProgress/DACircularProgress.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DACircularProgress-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DACircularProgress/DACircularProgress.framework/Headers/DACircularProgress-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACircularProgress-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/DACircularProgress/DACircularProgress-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACircularProgressView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/DACircularProgress/DACircularProgress/DACircularProgressView.h"
+        },
+        {
+          'type': 'file',
+          'name': "DALabeledCircularProgressView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/DACircularProgress/DACircularProgress/DALabeledCircularProgressView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DACircularProgress/DACircularProgress.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DACircularProgress.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DZNEmptyDataSet-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers/DZNEmptyDataSet-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DZNEmptyDataSet-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+EmptyDataSet.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DZNEmptyDataSet.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DateToolsSwift-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DateToolsSwift-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Device-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Headers/Device-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Device-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Device/Device-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Device/Device.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Device.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EAIntroView/EAIntroView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EAIntroPage.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/EAIntroView/EAIntroView/EAIntroPage.h"
+        },
+        {
+          'type': 'file',
+          'name': "EAIntroView-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EAIntroView/EAIntroView.framework/Headers/EAIntroView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EAIntroView-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/EAIntroView/EAIntroView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "EAIntroView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/EAIntroView/EAIntroView/EAIntroView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EAIntroView/EAIntroView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/EAIntroView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EARestrictedScrollView/EARestrictedScrollView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EARestrictedScrollView-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EARestrictedScrollView/EARestrictedScrollView.framework/Headers/EARestrictedScrollView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EARestrictedScrollView-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/EARestrictedScrollView/EARestrictedScrollView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "EARestrictedScrollView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/EARestrictedScrollView/EARestrictedScrollView/EARestrictedScrollView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EARestrictedScrollView/EARestrictedScrollView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/EARestrictedScrollView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EZAlertController/EZAlertController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EZAlertController-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EZAlertController/EZAlertController.framework/Headers/EZAlertController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EZAlertController-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/EZAlertController/EZAlertController-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/EZAlertController/EZAlertController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZAlertController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IDMPhotoBrowser/IDMPhotoBrowser.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IDMCaptionView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMCaptionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPBConstants.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMPBConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPhoto.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMPhoto.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPhotoBrowser-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IDMPhotoBrowser/IDMPhotoBrowser.framework/Headers/IDMPhotoBrowser-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPhotoBrowser-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/IDMPhotoBrowser/IDMPhotoBrowser-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPhotoBrowser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMPhotoBrowser.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMPhotoProtocol.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMPhotoProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMTapDetectingImageView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMTapDetectingImageView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMTapDetectingView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMTapDetectingView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDMZoomingScrollView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/IDMPhotoBrowser/Classes/IDMZoomingScrollView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IDMPhotoBrowser/IDMPhotoBrowser.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/IDMPhotoBrowser.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerSwift-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerSwift-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/KMPlaceholderTextView/KMPlaceholderTextView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KMPlaceholderTextView-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/KMPlaceholderTextView/KMPlaceholderTextView.framework/Headers/KMPlaceholderTextView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KMPlaceholderTextView-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/KMPlaceholderTextView/KMPlaceholderTextView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/KMPlaceholderTextView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Kingfisher-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Kingfisher/Sources/Kingfisher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NVActivityIndicatorView-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NVActivityIndicatorView-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/NVActivityIndicatorView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PKHUD-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PKHUD/PKHUD/PKHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PhoneNumberKit/PhoneNumberKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PhoneNumberKit-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PhoneNumberKit/PhoneNumberKit.framework/Headers/PhoneNumberKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PhoneNumberKit-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/PhoneNumberKit/PhoneNumberKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PhoneNumberKit/PhoneNumberKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/PhoneNumberKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Pods_Template.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Template-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Pods-Template/Pods-Template-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Template-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Pods_Template.framework/Headers/Pods_Template-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Pods_Template.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Template.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSURLSessionConfiguration+PNConfiguration.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAES.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/PNAES.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/PNAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPNSAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/APNS/PNAPNSAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPNSAuditAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/APNS/PNAPNSAuditAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPNSEnabledChannelsResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPNSModificationAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/APNS/PNAPNSModificationAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAcknowledgmentStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNAcknowledgmentStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelClientStateResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNChannelClientStateResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupChannelsResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupChannelsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupClientStateResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupClientStateResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupsResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientInformation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/PNClientInformation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientStateUpdateStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNClientStateUpdateStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNConfiguration.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/PNConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNDefines.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorCodes.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/PNErrorCodes.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHistoryAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/History/PNHistoryAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHistoryResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNHistoryResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLLogger.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Logger/Core/PNLLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNObjectEventListener.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Protocols/PNObjectEventListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Presence/PNPresenceAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelGroupHereNowAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Presence/PNPresenceChannelGroupHereNowAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelGroupHereNowResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelHereNowAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Presence/PNPresenceChannelHereNowAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelHereNowResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceGlobalHereNowResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceHereNowAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Presence/PNPresenceHereNowAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceWhereNowAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Presence/PNPresenceWhereNowAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceWhereNowResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceWhereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPublishAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Publish/PNPublishAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPublishSizeAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Publish/PNPublishSizeAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPublishStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNPublishStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNServiceData.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStateAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/State/PNStateAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStateAuditAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/State/PNStateAuditAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStateModificationAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/State/PNStateModificationAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStreamAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Stream/PNStreamAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStreamAuditAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Stream/PNStreamAuditAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStreamModificationAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Stream/PNStreamModificationAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStructures.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/PNStructures.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeAPIBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Subscribe/PNSubscribeAPIBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeChannelsOrGroupsAPIBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Subscribe/PNSubscribeChannelsOrGroupsAPIBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeStatus.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscriberResults.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNSubscriberResults.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNTimeAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Time/PNTimeAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNTimeResult.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNTimeResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNUnsubscribeAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNUnsubscribeChannelsOrGroupsAPICallBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeChannelsOrGroupsAPICallBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+APNS.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+APNS.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+ChannelGroup.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+ChannelGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Core.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+Core.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+History.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+History.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Presence.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+Presence.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Publish.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+Publish.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+State.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+State.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Subscribe.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+Subscribe.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Time.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+Time.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/PubNub/PubNub-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/PubNub.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/PubNub.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSURLSessionConfiguration+PNConfigurationPrivate.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfigurationPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPICallBuilder+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Builders/PNAPICallBuilder+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNArray.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNArray.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannel.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNChannel.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupAuditionParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupAuditionParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupModificationParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupModificationParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientState.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Managers/PNClientState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientStateParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNClientStateParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNConstants.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/PNConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNData.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNData.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNDictionary.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNEnvelopeInformation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/PNEnvelopeInformation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNErrorParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorStatus+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNGZIP.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNGZIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHeartbeat.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Managers/PNHeartbeat.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHeartbeatParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNHeartbeatParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHelpers.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNHelpers.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHistoryParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNHistoryParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNJSON.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNJSON.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNKeychain.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/PNKeychain.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLLogFileInformation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Logger/Data/PNLLogFileInformation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLeaveParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNLeaveParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLockSupport.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNLockSupport.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLogMacro.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Logger/PNLogMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNMessagePublishParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNMessagePublishParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNetwork.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/PNNetwork.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNetworkResponseSerializer.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/PNNetworkResponseSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNumber.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNNumber.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Protocols/PNParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceHereNowParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNPresenceHereNowParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceWhereNowParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNPresenceWhereNowParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPrivateStructures.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/PNPrivateStructures.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPublishSequence.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Managers/PNPublishSequence.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPushNotificationsAuditParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsAuditParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPushNotificationsStateModificationParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNReachability.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/PNReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNRequestParameters.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/PNRequestParameters.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNResult+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNResult+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNServiceData+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStateListener.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Managers/PNStateListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStatus+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNString.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNString.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNSubscribeParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeStatus+Private.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscriber.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Data/Managers/PNSubscriber.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNTimeParser.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/Parsers/PNTimeParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNURLBuilder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Network/PNURLBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNURLRequest.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Misc/Helpers/PNURLRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+CorePrivate.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+CorePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+PresencePrivate.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+PresencePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+SubscribePrivate.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/PubNub/PubNub/Core/PubNub+SubscribePrivate.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Reachability/Reachability.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Reachability-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Reachability/Reachability.framework/Headers/Reachability-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Reachability/Reachability-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Reachability/Reachability.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Reachability/Reachability.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Reachability.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Realm-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RealmSwift-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RealmSwift-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSData+ImageContentType.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCache.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDecoder.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloader.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloaderOperation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageManager.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageOperation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImagePrefetcher.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+WebCache.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+GIF.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MultiFormat.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+HighlightedWebCache.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+WebCache.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCacheOperation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Shimmer/Shimmer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBShimmering.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Shimmer/FBShimmering/FBShimmering.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBShimmeringLayer.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Shimmer/FBShimmering/FBShimmeringLayer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBShimmeringView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Shimmer/FBShimmering/FBShimmeringView.h"
+        },
+        {
+          'type': 'file',
+          'name': "Shimmer-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Shimmer/Shimmer.framework/Headers/Shimmer-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Shimmer-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Shimmer/Shimmer-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Shimmer/Shimmer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Shimmer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftMessages-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftMessages-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftMessages/SwiftMessages.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftMessages.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftValidator/SwiftValidator.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftValidator-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftValidator/SwiftValidator.framework/Headers/SwiftValidator-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftValidator-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/SwiftValidator/SwiftValidator-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftValidator/SwiftValidator.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftValidator.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/TPKeyboardAvoiding/TPKeyboardAvoiding.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TPKeyboardAvoiding-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/TPKeyboardAvoiding/TPKeyboardAvoiding.framework/Headers/TPKeyboardAvoiding-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TPKeyboardAvoiding-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "TPKeyboardAvoidingCollectionView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/TPKeyboardAvoiding/TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TPKeyboardAvoidingScrollView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/TPKeyboardAvoiding/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TPKeyboardAvoidingTableView.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/TPKeyboardAvoiding/TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+TPKeyboardAvoidingAdditions.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/TPKeyboardAvoiding/TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/TPKeyboardAvoiding/TPKeyboardAvoiding.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/TPKeyboardAvoiding.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Toast-Swift-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/Toast-Swift/Toast-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Toast_Swift-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Toast-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/UIAlertController+Blocks/UIAlertController_Blocks.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UIAlertController+Blocks-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/UIAlertController+Blocks/UIAlertController+Blocks-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAlertController+Blocks.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/UIAlertController+Blocks/UIAlertController+Blocks.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAlertController_Blocks-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/UIAlertController+Blocks/UIAlertController_Blocks.framework/Headers/UIAlertController_Blocks-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/UIAlertController+Blocks/UIAlertController_Blocks.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/UIAlertController+Blocks.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "POP.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POP.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimatableProperty.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimatableProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationEvent.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimationEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationExtras.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimationExtras.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationTracer.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimationTracer.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimator.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPAnimator.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPBasicAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPBasicAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPCustomAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPCustomAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPDecayAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPDecayAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPDefines.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPGeometry.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPGeometry.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPLayerExtras.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPLayerExtras.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPPropertyAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPPropertyAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPSpringAnimation.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/pop/pop/POPSpringAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "pop-Swift.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/pop-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "pop-umbrella.h",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Pods/Target Support Files/pop/pop-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Products/Debug-iphonesimulator/pop/pop.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zaidtayyab/Desktop/iOS Projects/Dunkey Delivery iOS/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/pop.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

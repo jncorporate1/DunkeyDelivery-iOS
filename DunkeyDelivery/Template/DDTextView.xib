@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDTextView" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="errorIcon" destination="wDW-Wc-zrc" id="hx9-RK-LkZ"/>
+                <outlet property="errorLabel" destination="sW2-fi-bDq" id="xPq-mf-Zhw"/>
+                <outlet property="icon" destination="hlP-N8-j7r" id="TVf-sl-fsh"/>
+                <outlet property="textField" destination="OdI-Mp-5mq" id="FUO-0d-oAt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OdI-Mp-5mq">
+                    <rect key="frame" x="31" y="14" width="288" height="26"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="user"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="0.70908147099999996" green="0.25201579930000001" blue="0.23334580660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="xqE-j4-98u"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW2-fi-bDq">
+                    <rect key="frame" x="30" y="0.0" width="300" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="13"/>
+                    <color key="textColor" red="1" green="0.04677283753" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUv-FH-CJh">
+                    <rect key="frame" x="0.0" y="50" width="335" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="s9K-Ue-zxT"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wDW-Wc-zrc">
+                    <rect key="frame" x="315" y="19" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hlP-N8-j7r">
+                    <rect key="frame" x="0.0" y="19" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="Y9z-Wo-6BX"/>
+                        <constraint firstAttribute="width" constant="16" id="gI1-mk-yfv"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nUv-FH-CJh" firstAttribute="top" secondItem="hlP-N8-j7r" secondAttribute="bottom" constant="15" id="0TF-O4-GMD"/>
+                <constraint firstItem="OdI-Mp-5mq" firstAttribute="leading" secondItem="hlP-N8-j7r" secondAttribute="trailing" constant="15" id="5V6-JY-n6s"/>
+                <constraint firstItem="hlP-N8-j7r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7sq-xA-UtG"/>
+                <constraint firstItem="sW2-fi-bDq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AND-AJ-Faf"/>
+                <constraint firstAttribute="trailing" secondItem="nUv-FH-CJh" secondAttribute="trailing" id="EI6-2V-FPh"/>
+                <constraint firstItem="OdI-Mp-5mq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="NpR-4z-zJy"/>
+                <constraint firstItem="nUv-FH-CJh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="T9t-ik-mre"/>
+                <constraint firstItem="hlP-N8-j7r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="WbN-IX-JUu"/>
+                <constraint firstItem="sW2-fi-bDq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="hhW-c2-c3K"/>
+                <constraint firstItem="OdI-Mp-5mq" firstAttribute="trailing" secondItem="nUv-FH-CJh" secondAttribute="trailing" constant="-16" id="q9J-ER-NfO"/>
+                <constraint firstAttribute="trailing" secondItem="sW2-fi-bDq" secondAttribute="trailing" constant="5" id="wNm-OP-LEg"/>
+                <constraint firstItem="nUv-FH-CJh" firstAttribute="top" secondItem="OdI-Mp-5mq" secondAttribute="bottom" constant="10" id="zTf-YJ-5xF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="38.5" y="84.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user" width="13" height="23"/>
+    </resources>
+</document>

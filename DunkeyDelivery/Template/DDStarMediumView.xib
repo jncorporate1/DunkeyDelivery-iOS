@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDStarMediumView" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="image1M" destination="KSA-kP-G4L" id="2TJ-wj-n2H"/>
+                <outlet property="image2M" destination="GbM-se-aun" id="nVv-hN-nXW"/>
+                <outlet property="image3M" destination="rU7-wB-QDV" id="H6h-tT-rBc"/>
+                <outlet property="image4M" destination="MvO-D3-3Ds" id="T1D-l5-JtZ"/>
+                <outlet property="image5M" destination="poQ-Qf-7bg" id="Mwt-wA-EuJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="13"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m2f-bF-xNw">
+                    <rect key="frame" x="0.0" y="0.0" width="96" height="13"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="star_unfilled_medium" translatesAutoresizingMaskIntoConstraints="NO" id="KSA-kP-G4L">
+                            <rect key="frame" x="5" y="0.0" width="14" height="13"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="star_unfilled_medium" translatesAutoresizingMaskIntoConstraints="NO" id="GbM-se-aun">
+                            <rect key="frame" x="24" y="0.0" width="14" height="13"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="star_unfilled_medium" translatesAutoresizingMaskIntoConstraints="NO" id="rU7-wB-QDV">
+                            <rect key="frame" x="43" y="0.0" width="14" height="13"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="star_unfilled_medium" translatesAutoresizingMaskIntoConstraints="NO" id="MvO-D3-3Ds">
+                            <rect key="frame" x="62" y="0.0" width="14" height="13"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="star_unfilled_medium" translatesAutoresizingMaskIntoConstraints="NO" id="poQ-Qf-7bg">
+                            <rect key="frame" x="81" y="0.0" width="14" height="13"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="GbM-se-aun" firstAttribute="leading" secondItem="KSA-kP-G4L" secondAttribute="trailing" constant="5" id="022-7p-EBR"/>
+                        <constraint firstItem="rU7-wB-QDV" firstAttribute="centerY" secondItem="m2f-bF-xNw" secondAttribute="centerY" id="1gL-1d-WVF"/>
+                        <constraint firstItem="MvO-D3-3Ds" firstAttribute="leading" secondItem="rU7-wB-QDV" secondAttribute="trailing" constant="5" id="2c4-Ip-fvN"/>
+                        <constraint firstItem="poQ-Qf-7bg" firstAttribute="leading" secondItem="MvO-D3-3Ds" secondAttribute="trailing" constant="5" id="2wU-p9-h3t"/>
+                        <constraint firstItem="KSA-kP-G4L" firstAttribute="leading" secondItem="m2f-bF-xNw" secondAttribute="leading" constant="5" id="4jz-Hh-PPW"/>
+                        <constraint firstItem="MvO-D3-3Ds" firstAttribute="centerY" secondItem="m2f-bF-xNw" secondAttribute="centerY" id="AvR-tl-5yl"/>
+                        <constraint firstItem="GbM-se-aun" firstAttribute="centerY" secondItem="m2f-bF-xNw" secondAttribute="centerY" id="Oe5-fC-nUY"/>
+                        <constraint firstItem="rU7-wB-QDV" firstAttribute="leading" secondItem="GbM-se-aun" secondAttribute="trailing" constant="5" id="YQ0-vQ-aSs"/>
+                        <constraint firstItem="poQ-Qf-7bg" firstAttribute="centerY" secondItem="m2f-bF-xNw" secondAttribute="centerY" id="kA0-Dm-YLF"/>
+                        <constraint firstItem="KSA-kP-G4L" firstAttribute="centerY" secondItem="m2f-bF-xNw" secondAttribute="centerY" id="vw1-g0-uE4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="m2f-bF-xNw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1En-jp-ZVF"/>
+                <constraint firstAttribute="trailing" secondItem="m2f-bF-xNw" secondAttribute="trailing" id="Rmh-n6-9RV"/>
+                <constraint firstAttribute="bottom" secondItem="m2f-bF-xNw" secondAttribute="bottom" id="SHg-6M-K7E"/>
+                <constraint firstItem="m2f-bF-xNw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lmb-LH-dN1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26" y="66"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star_unfilled_medium" width="14" height="13"/>
+    </resources>
+</document>

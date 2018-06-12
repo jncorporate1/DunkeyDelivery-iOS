@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDRideView" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="bussName" destination="Vah-Og-vDo" id="HaS-6E-a12"/>
+                <outlet property="bussType" destination="Izz-aZ-ajd" id="Rki-5t-DCs"/>
+                <outlet property="emailField" destination="tPI-Xy-DY9" id="4S8-JB-un3"/>
+                <outlet property="fullname" destination="pmz-Tq-Nuo" id="Rge-zc-rTI"/>
+                <outlet property="phNumField" destination="XF0-7l-rux" id="aAN-xd-F47"/>
+                <outlet property="zipCode" destination="B0y-kY-rkf" id="gDk-Ik-7c9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="431"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYL-1w-NeR" customClass="IQPreviousNextView" customModule="IQKeyboardManagerSwift">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="431"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you do not provide delivery service, Dunkey Delivery can provide it for you by simply filling the following form:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoL-ID-dfo">
+                            <rect key="frame" x="8" y="8" width="359" height="27"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmz-Tq-Nuo" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="43" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="V90-Qb-2uq"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Fullname"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vah-Og-vDo" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="93" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="sDm-Yr-HQe"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Business Name"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Izz-aZ-ajd" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="143" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Yqk-Vq-DNa"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Business Type"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPI-Xy-DY9" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="193" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="ROh-4z-yCN"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Email Address"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XF0-7l-rux" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="243" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="cv2-0n-3sV"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Phone Number"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0y-kY-rkf" customClass="DDSimpleTextField" customModule="Template" customModuleProvider="target">
+                            <rect key="frame" x="8" y="293" width="359" height="45"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Rq8-mg-HAs"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="Zip Code"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHS-8g-bKm">
+                            <rect key="frame" x="8" y="358" width="359" height="50"/>
+                            <color key="backgroundColor" red="0.3921568627" green="0.71764705880000002" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="2YQ-Ve-bpd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="Submit Form">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="submit:" destination="-1" eventType="touchUpInside" id="1CS-GD-Ivc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="IoL-ID-dfo" secondAttribute="trailing" constant="8" id="0OD-xW-hcz"/>
+                        <constraint firstItem="B0y-kY-rkf" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="1Ja-ic-Q4p"/>
+                        <constraint firstItem="XF0-7l-rux" firstAttribute="top" secondItem="tPI-Xy-DY9" secondAttribute="bottom" constant="5" id="2t0-mY-KL3"/>
+                        <constraint firstItem="Izz-aZ-ajd" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="4tc-uQ-eWa"/>
+                        <constraint firstAttribute="trailing" secondItem="pmz-Tq-Nuo" secondAttribute="trailing" constant="8" id="7Ad-1J-rdf"/>
+                        <constraint firstItem="pmz-Tq-Nuo" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="FZB-kN-bTL"/>
+                        <constraint firstItem="IoL-ID-dfo" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="Jgy-qc-98C"/>
+                        <constraint firstItem="IoL-ID-dfo" firstAttribute="top" secondItem="AYL-1w-NeR" secondAttribute="top" constant="8" id="M52-Yr-Hjd"/>
+                        <constraint firstItem="tPI-Xy-DY9" firstAttribute="top" secondItem="Izz-aZ-ajd" secondAttribute="bottom" constant="5" id="P5r-rr-sSa"/>
+                        <constraint firstAttribute="trailing" secondItem="XF0-7l-rux" secondAttribute="trailing" constant="8" id="RK4-qc-wqP"/>
+                        <constraint firstItem="XF0-7l-rux" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="Vhu-II-qAC"/>
+                        <constraint firstItem="pmz-Tq-Nuo" firstAttribute="top" secondItem="IoL-ID-dfo" secondAttribute="bottom" constant="8" id="XXR-HA-yR3"/>
+                        <constraint firstAttribute="trailing" secondItem="Vah-Og-vDo" secondAttribute="trailing" constant="8" id="aMt-RT-SZO"/>
+                        <constraint firstItem="tPI-Xy-DY9" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="aNV-Uw-YuW"/>
+                        <constraint firstItem="Izz-aZ-ajd" firstAttribute="top" secondItem="Vah-Og-vDo" secondAttribute="bottom" constant="5" id="hei-qr-mjL"/>
+                        <constraint firstItem="Vah-Og-vDo" firstAttribute="top" secondItem="pmz-Tq-Nuo" secondAttribute="bottom" constant="5" id="ijt-TZ-Cxy"/>
+                        <constraint firstItem="JHS-8g-bKm" firstAttribute="top" secondItem="B0y-kY-rkf" secondAttribute="bottom" constant="20" id="jmc-8w-RIX"/>
+                        <constraint firstItem="JHS-8g-bKm" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="kto-8S-BiU"/>
+                        <constraint firstAttribute="trailing" secondItem="Izz-aZ-ajd" secondAttribute="trailing" constant="8" id="mVS-nL-2Cc"/>
+                        <constraint firstAttribute="trailing" secondItem="JHS-8g-bKm" secondAttribute="trailing" constant="8" id="pIk-EY-5YM"/>
+                        <constraint firstAttribute="trailing" secondItem="tPI-Xy-DY9" secondAttribute="trailing" constant="8" id="tIo-Vi-LvM"/>
+                        <constraint firstItem="B0y-kY-rkf" firstAttribute="top" secondItem="XF0-7l-rux" secondAttribute="bottom" constant="5" id="vSA-wU-Ftz"/>
+                        <constraint firstItem="Vah-Og-vDo" firstAttribute="leading" secondItem="AYL-1w-NeR" secondAttribute="leading" constant="8" id="weG-SZ-yBM"/>
+                        <constraint firstAttribute="trailing" secondItem="B0y-kY-rkf" secondAttribute="trailing" constant="8" id="zgF-hh-5AK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AYL-1w-NeR" secondAttribute="bottom" id="Yd1-Nk-X0t"/>
+                <constraint firstItem="AYL-1w-NeR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hek-n8-b8X"/>
+                <constraint firstItem="AYL-1w-NeR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uUe-0q-00E"/>
+                <constraint firstAttribute="trailing" secondItem="AYL-1w-NeR" secondAttribute="trailing" id="wm8-hk-u9Q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

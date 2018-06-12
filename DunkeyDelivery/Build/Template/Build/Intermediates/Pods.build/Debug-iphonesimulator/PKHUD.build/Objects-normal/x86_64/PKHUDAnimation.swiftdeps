@@ -1,0 +1,351 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PKHUDAnimation"
+provides-nominal:
+- "C5PKHUD14PKHUDAnimation"
+provides-member:
+- ["C5PKHUD14PKHUDAnimation", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "/"
+- "Array"
+- "AssignmentPrecedence"
+- "CAAnimation"
+- "CABasicAnimation"
+- "CAKeyframeAnimation"
+- "Float"
+- "INT_MAX"
+- "NSNumber"
+- "PKHUDAnimation"
+- "StringLiteralType"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps16AbsoluteValuable", "pi"]
+- ["Ps9AnyObject", "CABasicAnimation"]
+- ["Ps9AnyObject", "CAKeyframeAnimation"]
+- ["Ps9AnyObject", "Float"]
+- ["Ps9AnyObject", "INT_MAX"]
+- ["Ps9AnyObject", "NSNumber"]
+- ["Ps9AnyObject", "calculationMode"]
+- ["Ps9AnyObject", "duration"]
+- ["Ps9AnyObject", "fromValue"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "keyTimes"]
+- ["Ps9AnyObject", "repeatCount"]
+- ["Ps9AnyObject", "toValue"]
+- ["Ps9AnyObject", "values"]
+- ["Ps9AnyObject", ""]
+- ["Ps19BinaryFloatingPoint", "init"]
+- ["Ps19BinaryFloatingPoint", "pi"]
+- ["Ps17BitwiseOperations", "pi"]
+- ["PSo8CAAction", "calculationMode"]
+- ["PSo8CAAction", "duration"]
+- ["PSo8CAAction", "fromValue"]
+- ["PSo8CAAction", "init"]
+- ["PSo8CAAction", "keyTimes"]
+- ["PSo8CAAction", "repeatCount"]
+- ["PSo8CAAction", "toValue"]
+- ["PSo8CAAction", "values"]
+- ["CSo11CAAnimation", "calculationMode"]
+- ["CSo11CAAnimation", "duration"]
+- ["CSo11CAAnimation", "fromValue"]
+- ["CSo11CAAnimation", "init"]
+- ["CSo11CAAnimation", "keyTimes"]
+- ["CSo11CAAnimation", "repeatCount"]
+- ["CSo11CAAnimation", "toValue"]
+- ["CSo11CAAnimation", "values"]
+- ["CSo16CABasicAnimation", "duration"]
+- ["CSo16CABasicAnimation", "fromValue"]
+- ["CSo16CABasicAnimation", "init"]
+- ["CSo16CABasicAnimation", "repeatCount"]
+- ["CSo16CABasicAnimation", "toValue"]
+- ["CSo19CAKeyframeAnimation", "calculationMode"]
+- ["CSo19CAKeyframeAnimation", "duration"]
+- ["CSo19CAKeyframeAnimation", "init"]
+- ["CSo19CAKeyframeAnimation", "keyTimes"]
+- ["CSo19CAKeyframeAnimation", "repeatCount"]
+- ["CSo19CAKeyframeAnimation", "values"]
+- ["PSo13CAMediaTiming", "calculationMode"]
+- ["PSo13CAMediaTiming", "duration"]
+- ["PSo13CAMediaTiming", "fromValue"]
+- ["PSo13CAMediaTiming", "init"]
+- ["PSo13CAMediaTiming", "keyTimes"]
+- ["PSo13CAMediaTiming", "repeatCount"]
+- ["PSo13CAMediaTiming", "toValue"]
+- ["PSo13CAMediaTiming", "values"]
+- ["CSo19CAPropertyAnimation", "calculationMode"]
+- ["CSo19CAPropertyAnimation", "duration"]
+- ["CSo19CAPropertyAnimation", "fromValue"]
+- ["CSo19CAPropertyAnimation", "init"]
+- ["CSo19CAPropertyAnimation", "keyTimes"]
+- ["CSo19CAPropertyAnimation", "repeatCount"]
+- ["CSo19CAPropertyAnimation", "toValue"]
+- ["CSo19CAPropertyAnimation", "values"]
+- ["Ps7CVarArg", "calculationMode"]
+- ["Ps7CVarArg", "duration"]
+- ["Ps7CVarArg", "fromValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "keyTimes"]
+- ["Ps7CVarArg", "pi"]
+- ["Ps7CVarArg", "repeatCount"]
+- ["Ps7CVarArg", "toValue"]
+- ["Ps7CVarArg", "values"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "pi"]
+- ["Ps28CustomDebugStringConvertible", "calculationMode"]
+- ["Ps28CustomDebugStringConvertible", "duration"]
+- ["Ps28CustomDebugStringConvertible", "fromValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "keyTimes"]
+- ["Ps28CustomDebugStringConvertible", "pi"]
+- ["Ps28CustomDebugStringConvertible", "repeatCount"]
+- ["Ps28CustomDebugStringConvertible", "toValue"]
+- ["Ps28CustomDebugStringConvertible", "values"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "pi"]
+- ["Ps23CustomStringConvertible", "calculationMode"]
+- ["Ps23CustomStringConvertible", "duration"]
+- ["Ps23CustomStringConvertible", "fromValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "keyTimes"]
+- ["Ps23CustomStringConvertible", "pi"]
+- ["Ps23CustomStringConvertible", "repeatCount"]
+- ["Ps23CustomStringConvertible", "toValue"]
+- ["Ps23CustomStringConvertible", "values"]
+- ["Sd", "pi"]
+- ["Ps9Equatable", "calculationMode"]
+- ["Ps9Equatable", "duration"]
+- ["Ps9Equatable", "fromValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "keyTimes"]
+- ["Ps9Equatable", "pi"]
+- ["Ps9Equatable", "repeatCount"]
+- ["Ps9Equatable", "toValue"]
+- ["Ps9Equatable", "values"]
+- ["Ps27ExpressibleByBooleanLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "pi"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "init"]
+- ["Sf", "pi"]
+- ["Ps13FloatingPoint", "init"]
+- ["Ps13FloatingPoint", "pi"]
+- ["Ps8Hashable", "calculationMode"]
+- ["Ps8Hashable", "duration"]
+- ["Ps8Hashable", "fromValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "keyTimes"]
+- ["Ps8Hashable", "pi"]
+- ["Ps8Hashable", "repeatCount"]
+- ["Ps8Hashable", "toValue"]
+- ["Ps8Hashable", "values"]
+- ["Si", "pi"]
+- ["Vs5Int16", "pi"]
+- ["Vs5Int32", "pi"]
+- ["Vs5Int64", "pi"]
+- ["Vs4Int8", "pi"]
+- ["Ps7Integer", "pi"]
+- ["Ps17IntegerArithmetic", "pi"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "pi"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps10MirrorPath", "pi"]
+- ["PSo8NSCoding", "calculationMode"]
+- ["PSo8NSCoding", "duration"]
+- ["PSo8NSCoding", "fromValue"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "keyTimes"]
+- ["PSo8NSCoding", "repeatCount"]
+- ["PSo8NSCoding", "toValue"]
+- ["PSo8NSCoding", "values"]
+- ["PSo9NSCopying", "calculationMode"]
+- ["PSo9NSCopying", "duration"]
+- ["PSo9NSCopying", "fromValue"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "keyTimes"]
+- ["PSo9NSCopying", "repeatCount"]
+- ["PSo9NSCopying", "toValue"]
+- ["PSo9NSCopying", "values"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSNumber", "init"]
+- ["CSo8NSObject", "calculationMode"]
+- ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "fromValue"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "keyTimes"]
+- ["CSo8NSObject", "repeatCount"]
+- ["CSo8NSObject", "toValue"]
+- ["CSo8NSObject", "values"]
+- ["PSo16NSObjectProtocol", "calculationMode"]
+- ["PSo16NSObjectProtocol", "duration"]
+- ["PSo16NSObjectProtocol", "fromValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "keyTimes"]
+- ["PSo16NSObjectProtocol", "repeatCount"]
+- ["PSo16NSObjectProtocol", "toValue"]
+- ["PSo16NSObjectProtocol", "values"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["C5PKHUD14PKHUDAnimation", "CAAnimation"]
+- ["C5PKHUD14PKHUDAnimation", "CABasicAnimation"]
+- ["C5PKHUD14PKHUDAnimation", "CAKeyframeAnimation"]
+- ["C5PKHUD14PKHUDAnimation", "Float"]
+- ["C5PKHUD14PKHUDAnimation", "INT_MAX"]
+- ["C5PKHUD14PKHUDAnimation", "NSNumber"]
+- ["C5PKHUD14PKHUDAnimation", "continuousRotation"]
+- ["C5PKHUD14PKHUDAnimation", "deinit"]
+- ["C5PKHUD14PKHUDAnimation", "discreteRotation"]
+- ["C5PKHUD14PKHUDAnimation", "init"]
+- ["Ps13SignedInteger", "pi"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps12SignedNumber", "pi"]
+- ["Ps10Strideable", "init"]
+- ["Ps10Strideable", "pi"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "pi"]
+- ["Vs6UInt16", "pi"]
+- ["Vs6UInt32", "pi"]
+- ["Vs6UInt64", "pi"]
+- ["Vs5UInt8", "pi"]
+- ["Ps15UnsignedInteger", "pi"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps15_CVarArgAligned", "pi"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "pi"]
+- ["Ps28_DisallowMixedSignArithmetic", "pi"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "calculationMode"]
+- ["Ps9_Hashable", "duration"]
+- ["Ps9_Hashable", "fromValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "keyTimes"]
+- ["Ps9_Hashable", "pi"]
+- ["Ps9_Hashable", "repeatCount"]
+- ["Ps9_Hashable", "toValue"]
+- ["Ps9_Hashable", "values"]
+- ["Ps14_Incrementable", "pi"]
+- ["Ps8_Integer", "pi"]
+- ["Ps18_IntegerArithmetic", "pi"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "pi"]
+- ["Ps14_SignedInteger", "pi"]
+- ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", "pi"]
+- ["Ps14_StringElement", "pi"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- "PSo8CAAction"
+- "CSo11CAAnimation"
+- "CSo16CABasicAnimation"
+- "CSo19CAKeyframeAnimation"
+- "PSo13CAMediaTiming"
+- "CSo19CAPropertyAnimation"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C5PKHUD14PKHUDAnimation"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Ps15UnsignedInteger"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap"
+interface-hash: "d5410d28ea327b2ce755ab28622f3d60"

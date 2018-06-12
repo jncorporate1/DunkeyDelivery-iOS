@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WineFilterViewMore" customModule="Template" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="eJi-mR-9mt"/>
+                <outlet property="viewMore" destination="shN-SI-4OA" id="qWz-ig-QXD"/>
+                <outlet property="viewMoreArrow" destination="KiR-Dh-Q1N" id="Nxa-1g-PYL"/>
+                <outlet property="viewWidth" destination="5h5-hK-zZM" id="pvl-SU-v9F"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aog-5t-JnK">
+                    <rect key="frame" x="142.5" y="0.0" width="100" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shN-SI-4OA">
+                            <rect key="frame" x="0.0" y="11" width="71" height="28"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                            <state key="normal" title="View more">
+                                <color key="titleColor" red="0.3921568627" green="0.71764705880000002" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="isSeeMoreDown:" destination="-1" eventType="touchUpInside" id="t8G-W9-eol"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiR-Dh-Q1N">
+                            <rect key="frame" x="71" y="0.0" width="29" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Hao-BI-33N"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="arrow_down_green"/>
+                            <connections>
+                                <action selector="seeMoreArrowDown:" destination="-1" eventType="touchUpInside" id="aqA-ts-WC6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="5h5-hK-zZM"/>
+                        <constraint firstItem="shN-SI-4OA" firstAttribute="centerY" secondItem="aog-5t-JnK" secondAttribute="centerY" id="A9N-p3-knj"/>
+                        <constraint firstItem="shN-SI-4OA" firstAttribute="leading" secondItem="aog-5t-JnK" secondAttribute="leading" id="K4a-kA-pxn"/>
+                        <constraint firstItem="KiR-Dh-Q1N" firstAttribute="centerY" secondItem="aog-5t-JnK" secondAttribute="centerY" id="hZY-Vx-mAh"/>
+                        <constraint firstAttribute="trailing" secondItem="KiR-Dh-Q1N" secondAttribute="trailing" id="hkS-WO-0tl"/>
+                        <constraint firstItem="KiR-Dh-Q1N" firstAttribute="leading" secondItem="shN-SI-4OA" secondAttribute="trailing" id="kJP-aZ-5jF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aog-5t-JnK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="24t-l2-NR6"/>
+                <constraint firstAttribute="bottom" secondItem="aog-5t-JnK" secondAttribute="bottom" id="H8d-6E-Rxp"/>
+                <constraint firstItem="aog-5t-JnK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="5" id="IBv-dp-Lba"/>
+                <constraint firstItem="aog-5t-JnK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hnO-iv-1oU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="50.5" y="59"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_down_green" width="16" height="10"/>
+    </resources>
+</document>

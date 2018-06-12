@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "40e1494b4001acf67e32c60a50db4717"
+build_time: [552230666, 902535000]
+inputs:
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/AccessibleMessage.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/Array+Utils.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/BackgroundViewable.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/BaseView.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/Error.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/Identifiable.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/MarginAdjustable.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/MaskingView.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/MessageView.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/NSBundle+Utils.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/PassthroughView.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/PassthroughWindow.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/Presenter.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/SwiftMessages.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/Theme.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/UIViewController+Utils.swift": [550322439, 0]
+  "/Users/zaidtayyab/Desktop/Template/Pods/SwiftMessages/SwiftMessages/WindowViewController.swift": [550322439, 0]

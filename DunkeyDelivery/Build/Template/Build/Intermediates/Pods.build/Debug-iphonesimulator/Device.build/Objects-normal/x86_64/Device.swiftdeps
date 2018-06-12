@@ -1,0 +1,592 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Device"
+provides-nominal:
+- "C6Device6Device"
+provides-member:
+- ["C6Device6Device", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<"
+- !private "=="
+- !private ">"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Device"
+- !private "Double"
+- !private "Int"
+- !private "NSString"
+- "Size"
+- !private "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Type"
+- !private "UIScreen"
+- "Version"
+- !private "_SYS_NAMELEN"
+- !private "max"
+- !private "uname"
+- !private "utsname"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Device"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Encoding"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "Size"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "Type"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "Version"]
+- !private ["Ps9AnyObject", "_SYS_NAMELEN"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "contains"]
+- !private ["Ps9AnyObject", "getType"]
+- !private ["Ps9AnyObject", "getVersion"]
+- !private ["Ps9AnyObject", "getVersionCode"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "scale"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "type"]
+- !private ["Ps9AnyObject", "uname"]
+- !private ["Ps9AnyObject", "utf8String"]
+- !private ["Ps9AnyObject", "utsname"]
+- !private ["Ps9AnyObject", "version"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "scale"]
+- !private ["Ps7CVarArg", "utf8String"]
+- !private ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "contains"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "scale"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8String"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "contains"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8String"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "ascii"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "scale"]
+- !private ["Ps23CustomStringConvertible", "utf8String"]
+- ["C6Device6Device", "Bool"]
+- !private ["C6Device6Device", "Device"]
+- !private ["C6Device6Device", "Double"]
+- !private ["C6Device6Device", "Int"]
+- !private ["C6Device6Device", "NSString"]
+- ["C6Device6Device", "Size"]
+- !private ["C6Device6Device", "String"]
+- ["C6Device6Device", "Type"]
+- !private ["C6Device6Device", "UIScreen"]
+- ["C6Device6Device", "Version"]
+- !private ["C6Device6Device", "_SYS_NAMELEN"]
+- ["C6Device6Device", "deinit"]
+- !private ["C6Device6Device", "getType"]
+- !private ["C6Device6Device", "getVersion"]
+- !private ["C6Device6Device", "getVersionCode"]
+- ["C6Device6Device", "init"]
+- ["C6Device6Device", "isEqualToScreenSize"]
+- ["C6Device6Device", "isLargerThanScreenSize"]
+- ["C6Device6Device", "isPad"]
+- ["C6Device6Device", "isPhone"]
+- ["C6Device6Device", "isPod"]
+- ["C6Device6Device", "isRetina"]
+- ["C6Device6Device", "isSimulator"]
+- ["C6Device6Device", "isSmallerThanScreenSize"]
+- !private ["C6Device6Device", "max"]
+- ["C6Device6Device", "size"]
+- ["C6Device6Device", "type"]
+- !private ["C6Device6Device", "uname"]
+- !private ["C6Device6Device", "utsname"]
+- ["C6Device6Device", "version"]
+- !private ["Sd", "init"]
+- !private ["VE10FoundationSS8Encoding", "ascii"]
+- !private ["VE10FoundationSS8Encoding", "rawValue"]
+- !private ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "Simulator"]
+- !private ["Ps9Equatable", "Unknown"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "ascii"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "iPad"]
+- !private ["Ps9Equatable", "iPad1"]
+- !private ["Ps9Equatable", "iPad2"]
+- !private ["Ps9Equatable", "iPad3"]
+- !private ["Ps9Equatable", "iPad4"]
+- !private ["Ps9Equatable", "iPadAir"]
+- !private ["Ps9Equatable", "iPadAir2"]
+- ["Ps9Equatable", "iPadMini"]
+- ["Ps9Equatable", "iPadMini2"]
+- ["Ps9Equatable", "iPadMini3"]
+- ["Ps9Equatable", "iPadMini4"]
+- !private ["Ps9Equatable", "iPadPro"]
+- !private ["Ps9Equatable", "iPhone"]
+- !private ["Ps9Equatable", "iPhone4"]
+- !private ["Ps9Equatable", "iPhone4S"]
+- !private ["Ps9Equatable", "iPhone5"]
+- !private ["Ps9Equatable", "iPhone5C"]
+- !private ["Ps9Equatable", "iPhone5S"]
+- !private ["Ps9Equatable", "iPhone6"]
+- !private ["Ps9Equatable", "iPhone6Plus"]
+- !private ["Ps9Equatable", "iPhone6S"]
+- !private ["Ps9Equatable", "iPhone6SPlus"]
+- !private ["Ps9Equatable", "iPhone7"]
+- !private ["Ps9Equatable", "iPhone7Plus"]
+- !private ["Ps9Equatable", "iPhoneSE"]
+- !private ["Ps9Equatable", "iPod"]
+- !private ["Ps9Equatable", "iPodTouch1Gen"]
+- !private ["Ps9Equatable", "iPodTouch2Gen"]
+- !private ["Ps9Equatable", "iPodTouch3Gen"]
+- !private ["Ps9Equatable", "iPodTouch4Gen"]
+- !private ["Ps9Equatable", "iPodTouch5Gen"]
+- !private ["Ps9Equatable", "iPodTouch6Gen"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "scale"]
+- !private ["Ps9Equatable", "screen12_9Inch"]
+- !private ["Ps9Equatable", "screen3_5Inch"]
+- !private ["Ps9Equatable", "screen4Inch"]
+- !private ["Ps9Equatable", "screen4_7Inch"]
+- !private ["Ps9Equatable", "screen5_5Inch"]
+- !private ["Ps9Equatable", "screen7_9Inch"]
+- !private ["Ps9Equatable", "screen9_7Inch"]
+- !private ["Ps9Equatable", "unknownSize"]
+- !private ["Ps9Equatable", "utf8String"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "contains"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8String"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "contains"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8String"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "contains"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8String"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "Simulator"]
+- !private ["Ps8Hashable", "Unknown"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "ascii"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "iPad"]
+- !private ["Ps8Hashable", "iPad1"]
+- !private ["Ps8Hashable", "iPad2"]
+- !private ["Ps8Hashable", "iPad3"]
+- !private ["Ps8Hashable", "iPad4"]
+- !private ["Ps8Hashable", "iPadAir"]
+- !private ["Ps8Hashable", "iPadAir2"]
+- ["Ps8Hashable", "iPadMini"]
+- ["Ps8Hashable", "iPadMini2"]
+- ["Ps8Hashable", "iPadMini3"]
+- ["Ps8Hashable", "iPadMini4"]
+- !private ["Ps8Hashable", "iPadPro"]
+- !private ["Ps8Hashable", "iPhone"]
+- !private ["Ps8Hashable", "iPhone4"]
+- !private ["Ps8Hashable", "iPhone4S"]
+- !private ["Ps8Hashable", "iPhone5"]
+- !private ["Ps8Hashable", "iPhone5C"]
+- !private ["Ps8Hashable", "iPhone5S"]
+- !private ["Ps8Hashable", "iPhone6"]
+- !private ["Ps8Hashable", "iPhone6Plus"]
+- !private ["Ps8Hashable", "iPhone6S"]
+- !private ["Ps8Hashable", "iPhone6SPlus"]
+- !private ["Ps8Hashable", "iPhone7"]
+- !private ["Ps8Hashable", "iPhone7Plus"]
+- !private ["Ps8Hashable", "iPhoneSE"]
+- !private ["Ps8Hashable", "iPod"]
+- !private ["Ps8Hashable", "iPodTouch1Gen"]
+- !private ["Ps8Hashable", "iPodTouch2Gen"]
+- !private ["Ps8Hashable", "iPodTouch3Gen"]
+- !private ["Ps8Hashable", "iPodTouch4Gen"]
+- !private ["Ps8Hashable", "iPodTouch5Gen"]
+- !private ["Ps8Hashable", "iPodTouch6Gen"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "scale"]
+- !private ["Ps8Hashable", "screen12_9Inch"]
+- !private ["Ps8Hashable", "screen3_5Inch"]
+- !private ["Ps8Hashable", "screen4Inch"]
+- !private ["Ps8Hashable", "screen4_7Inch"]
+- !private ["Ps8Hashable", "screen5_5Inch"]
+- !private ["Ps8Hashable", "screen7_9Inch"]
+- !private ["Ps8Hashable", "screen9_7Inch"]
+- !private ["Ps8Hashable", "unknownSize"]
+- !private ["Ps8Hashable", "utf8String"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "contains"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "contains"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Encoding"]
+- !private ["PSo8NSCoding", "contains"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "utf8String"]
+- !private ["PSo9NSCopying", "Encoding"]
+- !private ["PSo9NSCopying", "contains"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "utf8String"]
+- !private ["PSo16NSMutableCopying", "Encoding"]
+- !private ["PSo16NSMutableCopying", "contains"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "utf8String"]
+- !private ["CSo8NSObject", "Encoding"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "contains"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "scale"]
+- !private ["CSo8NSObject", "utf8String"]
+- !private ["PSo16NSObjectProtocol", "Encoding"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "contains"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "scale"]
+- !private ["PSo16NSObjectProtocol", "utf8String"]
+- !private ["PSo14NSSecureCoding", "Encoding"]
+- !private ["PSo14NSSecureCoding", "contains"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "utf8String"]
+- !private ["CSo8NSString", "Encoding"]
+- !private ["CSo8NSString", "contains"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "utf8String"]
+- !private ["Ps16RawRepresentable", "Simulator"]
+- !private ["Ps16RawRepresentable", "Unknown"]
+- !private ["Ps16RawRepresentable", "ascii"]
+- !private ["Ps16RawRepresentable", "iPad"]
+- !private ["Ps16RawRepresentable", "iPad1"]
+- !private ["Ps16RawRepresentable", "iPad2"]
+- !private ["Ps16RawRepresentable", "iPad3"]
+- !private ["Ps16RawRepresentable", "iPad4"]
+- !private ["Ps16RawRepresentable", "iPadAir"]
+- !private ["Ps16RawRepresentable", "iPadAir2"]
+- ["Ps16RawRepresentable", "iPadMini"]
+- ["Ps16RawRepresentable", "iPadMini2"]
+- ["Ps16RawRepresentable", "iPadMini3"]
+- ["Ps16RawRepresentable", "iPadMini4"]
+- !private ["Ps16RawRepresentable", "iPadPro"]
+- !private ["Ps16RawRepresentable", "iPhone"]
+- !private ["Ps16RawRepresentable", "iPhone4"]
+- !private ["Ps16RawRepresentable", "iPhone4S"]
+- !private ["Ps16RawRepresentable", "iPhone5"]
+- !private ["Ps16RawRepresentable", "iPhone5C"]
+- !private ["Ps16RawRepresentable", "iPhone5S"]
+- !private ["Ps16RawRepresentable", "iPhone6"]
+- !private ["Ps16RawRepresentable", "iPhone6Plus"]
+- !private ["Ps16RawRepresentable", "iPhone6S"]
+- !private ["Ps16RawRepresentable", "iPhone6SPlus"]
+- !private ["Ps16RawRepresentable", "iPhone7"]
+- !private ["Ps16RawRepresentable", "iPhone7Plus"]
+- !private ["Ps16RawRepresentable", "iPhoneSE"]
+- !private ["Ps16RawRepresentable", "iPod"]
+- !private ["Ps16RawRepresentable", "iPodTouch1Gen"]
+- !private ["Ps16RawRepresentable", "iPodTouch2Gen"]
+- !private ["Ps16RawRepresentable", "iPodTouch3Gen"]
+- !private ["Ps16RawRepresentable", "iPodTouch4Gen"]
+- !private ["Ps16RawRepresentable", "iPodTouch5Gen"]
+- !private ["Ps16RawRepresentable", "iPodTouch6Gen"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "screen12_9Inch"]
+- !private ["Ps16RawRepresentable", "screen3_5Inch"]
+- !private ["Ps16RawRepresentable", "screen4Inch"]
+- !private ["Ps16RawRepresentable", "screen4_7Inch"]
+- !private ["Ps16RawRepresentable", "screen5_5Inch"]
+- !private ["Ps16RawRepresentable", "screen7_9Inch"]
+- !private ["Ps16RawRepresentable", "screen9_7Inch"]
+- !private ["Ps16RawRepresentable", "unknownSize"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["O6Device4Size", "deinit"]
+- !private ["O6Device4Size", "rawValue"]
+- !private ["O6Device4Size", "screen12_9Inch"]
+- !private ["O6Device4Size", "screen3_5Inch"]
+- !private ["O6Device4Size", "screen4Inch"]
+- !private ["O6Device4Size", "screen4_7Inch"]
+- !private ["O6Device4Size", "screen5_5Inch"]
+- !private ["O6Device4Size", "screen7_9Inch"]
+- !private ["O6Device4Size", "screen9_7Inch"]
+- !private ["O6Device4Size", "unknownSize"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "contains"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "contains"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O6Device4Type", "Simulator"]
+- !private ["O6Device4Type", "Unknown"]
+- !private ["O6Device4Type", "deinit"]
+- !private ["O6Device4Type", "iPad"]
+- !private ["O6Device4Type", "iPhone"]
+- !private ["O6Device4Type", "iPod"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["CSo8UIScreen", "scale"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "scale"]
+- !private ["O6Device7Version", "Simulator"]
+- !private ["O6Device7Version", "Unknown"]
+- !private ["O6Device7Version", "iPad1"]
+- !private ["O6Device7Version", "iPad2"]
+- !private ["O6Device7Version", "iPad3"]
+- !private ["O6Device7Version", "iPad4"]
+- !private ["O6Device7Version", "iPadAir"]
+- !private ["O6Device7Version", "iPadAir2"]
+- ["O6Device7Version", "iPadMini"]
+- ["O6Device7Version", "iPadMini2"]
+- ["O6Device7Version", "iPadMini3"]
+- ["O6Device7Version", "iPadMini4"]
+- !private ["O6Device7Version", "iPadPro"]
+- !private ["O6Device7Version", "iPhone4"]
+- !private ["O6Device7Version", "iPhone4S"]
+- !private ["O6Device7Version", "iPhone5"]
+- !private ["O6Device7Version", "iPhone5C"]
+- !private ["O6Device7Version", "iPhone5S"]
+- !private ["O6Device7Version", "iPhone6"]
+- !private ["O6Device7Version", "iPhone6Plus"]
+- !private ["O6Device7Version", "iPhone6S"]
+- !private ["O6Device7Version", "iPhone6SPlus"]
+- !private ["O6Device7Version", "iPhone7"]
+- !private ["O6Device7Version", "iPhone7Plus"]
+- !private ["O6Device7Version", "iPhoneSE"]
+- !private ["O6Device7Version", "iPodTouch1Gen"]
+- !private ["O6Device7Version", "iPodTouch2Gen"]
+- !private ["O6Device7Version", "iPodTouch3Gen"]
+- !private ["O6Device7Version", "iPodTouch4Gen"]
+- !private ["O6Device7Version", "iPodTouch5Gen"]
+- !private ["O6Device7Version", "iPodTouch6Gen"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "contains"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "contains"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "contains"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "contains"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "contains"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "contains"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf8String"]
+- !private ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "Simulator"]
+- !private ["Ps9_Hashable", "Unknown"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "ascii"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "contains"]
+- !private ["Ps9_Hashable", "iPad"]
+- !private ["Ps9_Hashable", "iPad1"]
+- !private ["Ps9_Hashable", "iPad2"]
+- !private ["Ps9_Hashable", "iPad3"]
+- !private ["Ps9_Hashable", "iPad4"]
+- !private ["Ps9_Hashable", "iPadAir"]
+- !private ["Ps9_Hashable", "iPadAir2"]
+- ["Ps9_Hashable", "iPadMini"]
+- ["Ps9_Hashable", "iPadMini2"]
+- ["Ps9_Hashable", "iPadMini3"]
+- ["Ps9_Hashable", "iPadMini4"]
+- !private ["Ps9_Hashable", "iPadPro"]
+- !private ["Ps9_Hashable", "iPhone"]
+- !private ["Ps9_Hashable", "iPhone4"]
+- !private ["Ps9_Hashable", "iPhone4S"]
+- !private ["Ps9_Hashable", "iPhone5"]
+- !private ["Ps9_Hashable", "iPhone5C"]
+- !private ["Ps9_Hashable", "iPhone5S"]
+- !private ["Ps9_Hashable", "iPhone6"]
+- !private ["Ps9_Hashable", "iPhone6Plus"]
+- !private ["Ps9_Hashable", "iPhone6S"]
+- !private ["Ps9_Hashable", "iPhone6SPlus"]
+- !private ["Ps9_Hashable", "iPhone7"]
+- !private ["Ps9_Hashable", "iPhone7Plus"]
+- !private ["Ps9_Hashable", "iPhoneSE"]
+- !private ["Ps9_Hashable", "iPod"]
+- !private ["Ps9_Hashable", "iPodTouch1Gen"]
+- !private ["Ps9_Hashable", "iPodTouch2Gen"]
+- !private ["Ps9_Hashable", "iPodTouch3Gen"]
+- !private ["Ps9_Hashable", "iPodTouch4Gen"]
+- !private ["Ps9_Hashable", "iPodTouch5Gen"]
+- !private ["Ps9_Hashable", "iPodTouch6Gen"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "scale"]
+- !private ["Ps9_Hashable", "screen12_9Inch"]
+- !private ["Ps9_Hashable", "screen3_5Inch"]
+- !private ["Ps9_Hashable", "screen4Inch"]
+- !private ["Ps9_Hashable", "screen4_7Inch"]
+- !private ["Ps9_Hashable", "screen5_5Inch"]
+- !private ["Ps9_Hashable", "screen7_9Inch"]
+- !private ["Ps9_Hashable", "screen9_7Inch"]
+- !private ["Ps9_Hashable", "unknownSize"]
+- !private ["Ps9_Hashable", "utf8String"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["VSC7utsname", "init"]
+- !private ["VSC7utsname", "machine"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "C6Device6Device"
+- !private "Sd"
+- !private "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "O6Device4Size"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "O6Device4Type"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- "O6Device7Version"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "VSC7utsname"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaidtayyab/Desktop/Template/Pods/Target Support Files/Device/Device-umbrella.h"
+- "/Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Device.build/unextended-module.modulemap"
+interface-hash: "c3ad8c18ff27aa28f6b7789813dfb3c1"

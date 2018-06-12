@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/Realm/RLMSyncPermissionOfferResponse.m \
+  /Users/zaidtayyab/Desktop/Template/Build/Template/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap \
+  /Users/zaidtayyab/Desktop/Template/Pods/Target\ Support\ Files/Realm/Realm-prefix.pch \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionOfferResponse_Private.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionOfferResponse.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/Realm.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMArray.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMCollection.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMThreadSafeReference.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMMigration.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMObject.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMObjectBase.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMObjectSchema.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMPlatform.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMProperty.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMConstants.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMRealm.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMRealmConfiguration.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMRealmConfiguration+Sync.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncUtil.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMResults.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSchema.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncConfiguration.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncCredentials.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncManager.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermission.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionChange.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionOffer.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionResults.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncUser.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncPermissionValue.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncSession.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/NSError+RLMSync.h \
+  /Users/zaidtayyab/Desktop/Template/Pods/Realm/include/RLMSyncUtil_Private.h
